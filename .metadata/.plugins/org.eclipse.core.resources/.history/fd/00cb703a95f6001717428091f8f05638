@@ -1,0 +1,111 @@
+package com.testcase;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import com.main.product.Base_Test;
+import com.pages.product.LoginPage;
+
+public class LoginPageTest extends Base_Test {
+	public LoginPage loginpage;
+	
+	/**
+	 * This method used for Open the browser.
+	 * and call the method from main class to initialize the browser.
+	 */
+	
+	@Test(priority = 1)
+	public void openBrowser() {
+		readPropertyFile();
+		initializeBrowser();
+		loginpage = new LoginPage();
+	}
+	
+	/**
+	 * Entered the incorrect value in the email text field 
+	 * and verify the functionality of login page
+	 */
+	@Test(priority = 2, groups = "Negative")
+	public void invalidEmail() {
+		loginpage.HomePagelogin("yuidif@fourtek.com", "secret");
+		loginpage.clearEditBox();
+		WebElement login_txt = driver.findElement(By.xpath("//form[@id='loginform']/div[1]/div[1]/span[1]/strong[1]"));
+		String txt = login_txt.getText();
+		Assert.assertEquals(txt, "These credentials do not match our records.");
+	}
+
+	/**
+	 * Entered the incorrect value in the password text field
+	 * and verify the functionality of login page
+	 */
+	@Test(priority = 3, groups = "Negative")
+	public void invalidPassword() {
+		loginpage.HomePagelogin("client@fourtek.com", "12233");
+		loginpage.clearEditBox();
+		WebElement login_txt = driver.findElement(By.xpath("//form[@id='loginform']/div[1]/div[1]/span[1]/strong[1]"));
+		String txt = login_txt.getText();
+		Assert.assertEquals(txt, "These credentials do not match our records.");
+	}
+	
+	/**
+	 * Entered the incorrect value in the email and password text field.
+	 * and verify the functionality of login page
+	 */
+	@Test(priority = 4, groups = "Negative")
+	public void invalidPwdEmail() {
+		loginpage.HomePagelogin("cssddddt@fourtek.com", "12233");
+		loginpage.clearEditBox();
+		WebElement login_txt = driver.findElement(By.xpath("//form[@id='loginform']/div[1]/div[1]/span[1]/strong[1]"));
+		String txt = login_txt.getText();
+		Assert.assertEquals(txt, "These credentials do not match our records.");
+	}
+	
+	/**
+	 * To Perform negative testcase
+	 * Entered the case sensitive word in the password text field.
+	 * Verify the functionality of login page
+	 */
+	@Test(priority = 5, groups = "Negative")
+	public void checkCaseSensitive() {
+		loginpage.HomePagelogin("cssddddt@fourtek.com", "SECRET");
+		loginpage.clearEditBox();
+		WebElement login_txt = driver.findElement(By.xpath("//form[@id='loginform']/div[1]/div[1]/span[1]/strong[1]"));
+		String txt = login_txt.getText();
+		Assert.assertEquals(txt, "These credentials do not match our records.");
+		
+		loginpage.HomePagelogin("cssddddt@fourtek.com", "sECrET");
+		loginpage.clearEditBox();
+		WebElement login_txt1 = driver.findElement(By.xpath("//form[@id='loginform']/div[1]/div[1]/span[1]/strong[1]"));
+		String txt1 = login_txt1.getText();
+		Assert.assertEquals(txt1, "These credentials do not match our records.");
+	}
+	
+	/**
+	 * To Perform negative testcase
+	 * Entered the Unicode Transformation Format text in the password text field.
+	 * Verify the functionality of login page
+	 */
+	@Test(priority = 6, groups = "Negative")
+	public void checkUnicodeTransformationFormat() {
+		loginpage.HomePagelogin("cssddddt@fourtek.com", "सीक्रेट");
+		loginpage.clearEditBox();
+		WebElement login_txt = driver.findElement(By.xpath("//form[@id='loginform']/div[1]/div[1]/span[1]/strong[1]"));
+		String txt = login_txt.getText();
+		Assert.assertEquals(txt, "These credentials do not match our records.");
+	}
+	
+		/**
+		 * This method used for login.
+		 * Verify the functionality of the login page.
+		 */
+	@Test(priority = 7)
+	public void doLogin() {
+		loginpage.HomePagelogin(prop.getProperty("username"), prop.getProperty("password"));
+		waitForPageLoaded();
+		String tittle = loginpage.Validate();
+		Assert.assertEquals(tittle, "Start New Project");
+		System.out.println(tittle);
+	}
+
+}

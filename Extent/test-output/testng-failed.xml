@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.utils.ExtentReporterNG"/>
+  </listeners>
+  <test name=" Test Cases(failed)">
+    <classes>
+      <class name="com.pages.New">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.pages.New -->
+    </classes>
+  </test> <!--  Test Cases(failed) -->
+</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
