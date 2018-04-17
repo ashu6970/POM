@@ -8838,3 +8838,224 @@ org.eclipse.core.runtime.CoreException: Launch configuration FileUploadTest.uplo
 2018-04-10 15:38:54,142 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
 2018-04-10 15:38:54,145 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-04-10 15:38:54,145 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-11 11:00:33,480 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @667915ms
+2018-04-11 11:00:33,824 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2018-04-11 11:00:33,948 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@798a1964{/help,null,AVAILABLE}
+2018-04-11 11:00:33,987 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@24ea1b25{HTTP/1.1,[http/1.1]}{127.0.0.1:43074}
+2018-04-11 11:00:33,988 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @668427ms
+2018-04-11 18:03:20,226 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@24ea1b25{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2018-04-11 18:03:20,258 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@798a1964{/help,null,UNAVAILABLE}
+2018-04-12 10:58:48,502 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 10:58:48,523 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 10:58:48,529 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 10:58:48,530 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 11:01:17,158 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @2206991ms
+2018-04-12 11:01:17,405 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2018-04-12 11:01:17,480 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7dcc8d81{/help,null,AVAILABLE}
+2018-04-12 11:01:17,495 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@691df796{HTTP/1.1,[http/1.1]}{127.0.0.1:41135}
+2018-04-12 11:01:17,495 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @2207329ms
+2018-04-12 11:02:05,037 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:02:05,038 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 11:02:05,040 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:02:05,041 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 11:03:14,236 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:03:14,237 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 11:03:14,239 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:03:14,239 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 11:03:31,761 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:03:31,761 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 11:03:31,766 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:03:31,766 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 11:03:41,095 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:03:41,096 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 11:03:41,098 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:03:41,098 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 11:17:29,539 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:17:29,540 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 11:17:29,544 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:17:29,544 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 11:18:58,138 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:18:58,138 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 11:18:58,140 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:18:58,140 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 11:20:52,373 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:20:52,373 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 11:20:52,376 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:20:52,376 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 11:23:15,142 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:23:15,143 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 11:23:15,144 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:23:15,145 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 11:29:28,409 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:29:28,409 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 11:29:28,411 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:29:28,412 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 11:29:32,406 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:29:32,406 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 11:29:32,408 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:29:32,409 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 11:33:35,009 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:33:35,009 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 11:33:35,010 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:33:35,010 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 11:39:21,183 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:39:21,183 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 11:39:21,184 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:39:21,185 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 11:39:43,926 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:39:43,926 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 11:39:43,927 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 11:39:43,927 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 12:10:58,619 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 12:10:58,619 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 12:10:58,620 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 12:10:58,620 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 12:12:20,463 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 12:12:20,464 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 12:12:20,467 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 12:12:20,467 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 12:16:31,558 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 12:16:31,559 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 12:16:31,560 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 12:16:31,560 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 12:35:29,719 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 12:35:29,719 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 12:35:29,725 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 12:35:29,725 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 12:39:26,696 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 12:39:26,696 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 12:39:26,700 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 12:39:26,700 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 17:26:54,503 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:26:54,517 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 17:26:54,519 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:26:54,520 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 17:27:44,330 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:27:44,330 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 17:27:44,332 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:27:44,332 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 17:29:20,456 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:29:20,457 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 17:29:20,459 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:29:20,459 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 17:29:31,102 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:29:31,102 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 17:29:31,105 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:29:31,105 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 17:29:44,859 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:29:44,859 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 17:29:44,861 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:29:44,861 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 17:30:02,932 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:30:02,933 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 17:30:02,934 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:30:02,934 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 17:31:55,923 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:31:55,923 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 17:31:55,928 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:31:55,928 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 17:31:56,992 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:31:56,992 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 17:31:56,993 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:31:56,993 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 17:36:41,826 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:36:41,826 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 17:36:41,829 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:36:41,838 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 17:43:57,662 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:43:57,662 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 17:43:57,663 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:43:57,663 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 17:50:24,741 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:50:24,741 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 17:50:24,743 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:50:24,743 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 17:55:31,224 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:55:31,225 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-12 17:55:31,228 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-12 17:55:31,228 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-12 18:12:04,007 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@691df796{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2018-04-12 18:12:04,158 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7dcc8d81{/help,null,UNAVAILABLE}
+2018-04-13 09:37:09,389 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @1352064ms
+2018-04-13 09:37:09,680 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2018-04-13 09:37:09,766 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3cd0a332{/help,null,AVAILABLE}
+2018-04-13 09:37:09,780 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@2a9fc328{HTTP/1.1,[http/1.1]}{127.0.0.1:41173}
+2018-04-13 09:37:09,781 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @1352461ms
+2018-04-13 09:40:04,967 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 09:40:04,974 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 09:40:04,979 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 09:40:04,979 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 09:40:29,695 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 09:40:29,696 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 09:40:29,698 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 09:40:29,698 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 10:20:01,592 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:20:01,593 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 10:20:01,600 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:20:01,601 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 10:24:54,512 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:24:54,512 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 10:24:54,515 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:24:54,516 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 10:25:04,309 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:25:04,314 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 10:25:04,317 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:25:04,319 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 10:27:24,578 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:27:24,579 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 10:27:24,580 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:27:24,580 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 10:56:47,383 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:56:47,384 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 10:56:47,388 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:56:47,388 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 10:57:35,609 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:57:35,610 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 10:57:35,614 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 10:57:35,614 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 11:05:14,964 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:05:14,965 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 11:05:14,967 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:05:14,967 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 11:05:32,685 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:05:32,687 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 11:05:32,691 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:05:32,692 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 11:22:17,374 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:22:17,374 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 11:22:17,378 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:22:17,387 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 11:22:23,265 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:22:23,266 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 11:22:23,268 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:22:23,268 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 11:27:45,574 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:27:45,575 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 11:27:45,578 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 11:27:45,578 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 12:13:47,017 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 12:13:47,017 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 12:13:47,022 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 12:13:47,022 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 12:15:14,024 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 12:15:14,024 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 12:15:14,026 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 12:15:14,026 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 12:16:22,076 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 12:16:22,076 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 12:16:22,080 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 12:16:22,080 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 12:54:12,053 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 12:54:12,054 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 12:54:12,055 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 12:54:12,056 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 12:55:16,744 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 12:55:16,744 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 12:55:16,745 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 12:55:16,746 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 14:25:35,299 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 14:25:35,302 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/main/resources
+2018-04-13 14:25:35,303 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-13 14:25:35,304 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/fourtek/workspace/Extent/src/test/resources
+2018-04-13 17:57:47,339 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@2a9fc328{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2018-04-13 17:57:47,403 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@3cd0a332{/help,null,UNAVAILABLE}
