@@ -30,7 +30,6 @@ public class ReviewerTest {
 	public void automatedTranslation() throws Exception
 	{
 		reviewer.automatedTranslationUpDown();
-		Assert.assertEquals(reviewer.validAutomatedUpDown(), "Save & Next");
 	}
 	
 	@Test(priority=4)

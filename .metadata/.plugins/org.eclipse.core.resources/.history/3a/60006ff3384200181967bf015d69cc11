@@ -23,14 +23,12 @@ public class ReviewerTest {
 	public void  doSelectReviewerProject()
 	{
 		reviewer.assignProject();
-		Assert.assertEquals(reviewer.validAssignProject(), "Project Description");
 	}
 	
 	@Test(priority=3)
 	public void automatedTranslation() throws Exception
 	{
 		reviewer.automatedTranslationUpDown();
-		Assert.assertEquals(reviewer.validAutomatedUpDown(), "Save & Next");
 	}
 	
 	@Test(priority=4)

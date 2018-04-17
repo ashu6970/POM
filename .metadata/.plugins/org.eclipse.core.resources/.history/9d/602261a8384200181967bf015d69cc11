@@ -1,6 +1,5 @@
 package com.testcase;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.pages.product.Reviewer;
@@ -15,7 +14,6 @@ public class ReviewerTest {
 	{
 		reviewer =new Reviewer();
 		reviewer.login("test.reviewer@devnagri.com", "secret");
-		Assert.assertEquals(reviewer.vaidReviewerLogin(), "Translator Application");
 	}
 	
 	@Test(priority=2)
@@ -23,14 +21,12 @@ public class ReviewerTest {
 	public void  doSelectReviewerProject()
 	{
 		reviewer.assignProject();
-		Assert.assertEquals(reviewer.validAssignProject(), "Project Description");
 	}
 	
 	@Test(priority=3)
 	public void automatedTranslation() throws Exception
 	{
 		reviewer.automatedTranslationUpDown();
-		Assert.assertEquals(reviewer.validAutomatedUpDown(), "Save & Next");
 	}
 	
 	@Test(priority=4)

@@ -128,9 +128,4 @@ public class Reviewer extends Base_Test{
 		 return validationAssignProject.getText();
 	 }
 	
-	 public String validAutomatedUpDown()
-	 {
-		 return validationAutomatedUpDown.getText();
-	 }
-	
 }

@@ -2,6 +2,7 @@ package com.testcase;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import com.main.product.Base_Test;
 import com.pages.product.Translator;
 
@@ -17,11 +18,13 @@ public class TranslatorTest extends Base_Test{
 	}
 	
 	@Test(priority=2)
+
 	public void  doSelectTranslatorProject() throws Exception
 	{
 		translator.assignProject();
 		Assert.assertEquals(translator.validAssignProject(), "Project Description");
 	}
+		
 	
 	@Test(priority=3)
 	public void automatedTranslation() throws Exception
@@ -41,7 +44,8 @@ public class TranslatorTest extends Base_Test{
 	public void docompleteTranslation() throws Throwable
 	{
 		translator.completeTranslation();
-		Assert.assertEquals(translator.validCompleteTranslation(), "completed");	
+		Assert.assertEquals(translator.validCompleteTranslation(), "completed");
+		
 	}
 	
 	@Test(priority=6,dependsOnMethods = { "docompleteTranslation" } )
@@ -55,8 +59,5 @@ public class TranslatorTest extends Base_Test{
 	{
 		translator.translatorLogout();
 	}
-	
-	
+
 }
-
-

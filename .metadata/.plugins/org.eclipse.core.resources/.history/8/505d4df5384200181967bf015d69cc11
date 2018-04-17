@@ -54,10 +54,6 @@ public class Reviewer extends Base_Test{
 	@FindBy(xpath="//div[@class='row control-bar trans m-l-0 m-r--2']/div/h4")  // To get the project description text on translation page.
 	WebElement validationAssignProject;
 	
-
-	@FindBy(xpath="//div[@class='col-md-7 right-controls text-right p-t-0']/button[2]")  // To get the save and next text on translation page.
-	WebElement validationAutomatedUpDown;
-	
 	public Reviewer() {
 
 		PageFactory.initElements(driver, this);
@@ -122,15 +118,5 @@ public class Reviewer extends Base_Test{
 	{
 		return validationReviewerLogin.getText();
 	}
-	
-	public String validAssignProject()
-	 {
-		 return validationAssignProject.getText();
-	 }
-	
-	 public String validAutomatedUpDown()
-	 {
-		 return validationAutomatedUpDown.getText();
-	 }
 	
 }
