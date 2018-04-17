@@ -1,0 +1,58 @@
+--Login--
+
+graph TD
+ 
+Login --> A{If}
+A{If} --> id1[User enter all mandatory fields] 
+id1[User enter all mandatory fields] --> Accepted
+id1[User enter all mandatory fields] --> B{otherwise}
+B{else} --> Rejected
+
+
+--Start New Project--
+
+graph TD
+ 
+id[Start New project] --> A{If} 
+A{If} --> id1[User enter all mandatory fields] 
+id1[User enter all mandatory fields] --> id3[Project Created]
+id1[User enter all mandatory fields] --> B{else}
+B{else} --> id4[Validation error message]
+
+--File Upload--
+
+graph TD
+ 
+id[File Upload] --> A{If} 
+A{If} --> id1[Supported File Format] 
+id1[Supported File Format] --> id3[File Uploaded Successfully]
+id1[Supported File Format] --> B{else}
+B{else} --> id4[Parse Error]
+
+--Make an Order--
+
+graph TD
+ 
+id[Make an Order] --> id1[Select All]
+id[Make an Order] --> id2[Non Translated]
+id[Make an Order] --> id3[Select File]
+id[Make an Order] --> id4[Selected Sentences]
+id[Make an Order] --> id5[From Date]
+id[Make an Order] --> id6[Last Order]
+ id1[Select All] --> id7[Payment made on the bases of word count]
+id7[Payment made on the bases of word count] --> id8[From Credit]
+id7[Payment made on the bases of word count] --> id9[From Payment Gateway]
+id2[Non Translated] --> id10[User should able to pay all non-translated sentences]
+id3[Select File] --> id11[if multiple file uploaded in a poject  then user is able to make a payment of secelcted file]
+
+
+-----------Manager Assign Role---------
+
+graph TD
+ 
+Manager --> id1[Order Assign to translator]
+Manager --> id2[If proofread option selected by client then order automatically assign to reviewer]
+id1[Order Assign to translator] --> id3[Click Complete button after translation done]
+id2[If proofread option selected by client then order automatically assign to reviewer] --> id4[Click complete button after review done]
+
+

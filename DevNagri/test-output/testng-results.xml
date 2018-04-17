@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="32" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Test Suite" duration-ms="200115" started-at="2018-04-13T09:56:32Z" finished-at="2018-04-13T09:59:52Z">
+    <groups>
+      <group name="Negative">
+        <method signature="LoginPageTest.checkCaseSensitive()[pri:5, instance:com.testcase.LoginPageTest@5442a311]" name="checkCaseSensitive" class="com.testcase.LoginPageTest"/>
+        <method signature="LoginPageTest.checkUnicodeTransformationFormat()[pri:6, instance:com.testcase.LoginPageTest@5442a311]" name="checkUnicodeTransformationFormat" class="com.testcase.LoginPageTest"/>
+        <method signature="LoginPageTest.invalidEmail()[pri:2, instance:com.testcase.LoginPageTest@5442a311]" name="invalidEmail" class="com.testcase.LoginPageTest"/>
+        <method signature="LoginPageTest.invalidPassword()[pri:3, instance:com.testcase.LoginPageTest@5442a311]" name="invalidPassword" class="com.testcase.LoginPageTest"/>
+        <method signature="LoginPageTest.invalidPwdEmail()[pri:4, instance:com.testcase.LoginPageTest@5442a311]" name="invalidPwdEmail" class="com.testcase.LoginPageTest"/>
+        <method signature="CreateProjectTest.onlyEnterProjectName()[pri:2, instance:com.testcase.CreateProjectTest@56ac3a89]" name="onlyEnterProjectName" class="com.testcase.CreateProjectTest"/>
+        <method signature="CreateProjectTest.onlySelectTargetLanguage()[pri:3, instance:com.testcase.CreateProjectTest@56ac3a89]" name="onlySelectTargetLanguage" class="com.testcase.CreateProjectTest"/>
+        <method signature="CreateProjectTest.withOutSelectAllOptions()[pri:1, instance:com.testcase.CreateProjectTest@56ac3a89]" name="withOutSelectAllOptions" class="com.testcase.CreateProjectTest"/>
+      </group> <!-- Negative -->
+    </groups>
+    <test name="Login Testcase" duration-ms="34651" started-at="2018-04-13T09:56:32Z" finished-at="2018-04-13T09:57:06Z">
+      <class name="com.testcase.LoginPageTest">
+        <test-method status="PASS" signature="openBrowser()[pri:1, instance:com.testcase.LoginPageTest@5442a311]" name="openBrowser" duration-ms="7179" started-at="2018-04-13T15:26:32Z" finished-at="2018-04-13T15:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="invalidEmail()[pri:2, instance:com.testcase.LoginPageTest@5442a311]" name="invalidEmail" duration-ms="2786" started-at="2018-04-13T15:26:39Z" finished-at="2018-04-13T15:26:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method status="PASS" signature="invalidPassword()[pri:3, instance:com.testcase.LoginPageTest@5442a311]" name="invalidPassword" duration-ms="2858" started-at="2018-04-13T15:26:42Z" finished-at="2018-04-13T15:26:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method status="PASS" signature="invalidPwdEmail()[pri:4, instance:com.testcase.LoginPageTest@5442a311]" name="invalidPwdEmail" duration-ms="3005" started-at="2018-04-13T15:26:45Z" finished-at="2018-04-13T15:26:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPwdEmail -->
+        <test-method status="PASS" signature="checkCaseSensitive()[pri:5, instance:com.testcase.LoginPageTest@5442a311]" name="checkCaseSensitive" duration-ms="6955" started-at="2018-04-13T15:26:48Z" finished-at="2018-04-13T15:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCaseSensitive -->
+        <test-method status="PASS" signature="checkUnicodeTransformationFormat()[pri:6, instance:com.testcase.LoginPageTest@5442a311]" name="checkUnicodeTransformationFormat" duration-ms="3933" started-at="2018-04-13T15:26:55Z" finished-at="2018-04-13T15:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUnicodeTransformationFormat -->
+        <test-method status="PASS" signature="doLogin()[pri:7, instance:com.testcase.LoginPageTest@5442a311]" name="doLogin" duration-ms="7833" started-at="2018-04-13T15:26:59Z" finished-at="2018-04-13T15:27:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- com.testcase.LoginPageTest -->
+    </test> <!-- Login Testcase -->
+    <test name="Create Project Testcase" duration-ms="40267" started-at="2018-04-13T09:57:07Z" finished-at="2018-04-13T09:57:47Z">
+      <class name="com.testcase.CreateProjectTest">
+        <test-method status="PASS" signature="startProject()[pri:0, instance:com.testcase.CreateProjectTest@56ac3a89]" name="startProject" duration-ms="3600" started-at="2018-04-13T15:27:07Z" finished-at="2018-04-13T15:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startProject -->
+        <test-method status="PASS" signature="withOutSelectAllOptions()[pri:1, instance:com.testcase.CreateProjectTest@56ac3a89]" name="withOutSelectAllOptions" duration-ms="3597" started-at="2018-04-13T15:27:10Z" finished-at="2018-04-13T15:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withOutSelectAllOptions -->
+        <test-method status="PASS" signature="onlyEnterProjectName()[pri:2, instance:com.testcase.CreateProjectTest@56ac3a89]" name="onlyEnterProjectName" duration-ms="6045" started-at="2018-04-13T15:27:14Z" finished-at="2018-04-13T15:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlyEnterProjectName -->
+        <test-method status="PASS" signature="onlySelectTargetLanguage()[pri:3, instance:com.testcase.CreateProjectTest@56ac3a89]" name="onlySelectTargetLanguage" duration-ms="10595" started-at="2018-04-13T15:27:20Z" finished-at="2018-04-13T15:27:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onlySelectTargetLanguage -->
+        <test-method status="PASS" signature="typeProjectName()[pri:4, instance:com.testcase.CreateProjectTest@56ac3a89]" name="typeProjectName" duration-ms="392" started-at="2018-04-13T15:27:30Z" finished-at="2018-04-13T15:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeProjectName -->
+        <test-method status="PASS" signature="projectType()[pri:5, instance:com.testcase.CreateProjectTest@56ac3a89]" name="projectType" duration-ms="1148" started-at="2018-04-13T15:27:31Z" finished-at="2018-04-13T15:27:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectType -->
+        <test-method status="PASS" signature="targetLanguage()[pri:7, instance:com.testcase.CreateProjectTest@56ac3a89]" name="targetLanguage" duration-ms="7404" started-at="2018-04-13T15:27:32Z" finished-at="2018-04-13T15:27:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- targetLanguage -->
+        <test-method status="PASS" signature="doClickOnLetsStartButton()[pri:8, instance:com.testcase.CreateProjectTest@56ac3a89]" name="doClickOnLetsStartButton" duration-ms="7458" started-at="2018-04-13T15:27:39Z" finished-at="2018-04-13T15:27:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doClickOnLetsStartButton -->
+      </class> <!-- com.testcase.CreateProjectTest -->
+    </test> <!-- Create Project Testcase -->
+    <test name="File Upload Testcase" duration-ms="22410" started-at="2018-04-13T09:57:47Z" finished-at="2018-04-13T09:58:09Z">
+      <class name="com.testcase.FileUploadTest">
+        <test-method status="PASS" signature="clickOnAddNewFile()[pri:1, instance:com.testcase.FileUploadTest@13805618]" name="clickOnAddNewFile" duration-ms="5143" started-at="2018-04-13T15:27:47Z" finished-at="2018-04-13T15:27:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAddNewFile -->
+        <test-method status="PASS" signature="enterFileLocation()[pri:4, instance:com.testcase.FileUploadTest@13805618]" name="enterFileLocation" duration-ms="8494" started-at="2018-04-13T15:27:52Z" finished-at="2018-04-13T15:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterFileLocation -->
+        <test-method status="PASS" signature="selectFileFormat()[pri:5, instance:com.testcase.FileUploadTest@13805618]" name="selectFileFormat" duration-ms="8766" started-at="2018-04-13T15:28:00Z" finished-at="2018-04-13T15:28:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFileFormat -->
+      </class> <!-- com.testcase.FileUploadTest -->
+    </test> <!-- File Upload Testcase -->
+    <test name="Choose Translation Plan" duration-ms="8177" started-at="2018-04-13T09:58:09Z" finished-at="2018-04-13T09:58:17Z">
+      <class name="com.testcase.ChooseTranslationPlanTest">
+        <test-method status="PASS" signature="choosePlanForTranslation()[pri:1, instance:com.testcase.ChooseTranslationPlanTest@4b952a2d]" name="choosePlanForTranslation" duration-ms="6593" started-at="2018-04-13T15:28:09Z" finished-at="2018-04-13T15:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- choosePlanForTranslation -->
+        <test-method status="PASS" signature="selectTheBestPlan()[pri:3, instance:com.testcase.ChooseTranslationPlanTest@4b952a2d]" name="selectTheBestPlan" duration-ms="1580" started-at="2018-04-13T15:28:16Z" finished-at="2018-04-13T15:28:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTheBestPlan -->
+      </class> <!-- com.testcase.ChooseTranslationPlanTest -->
+    </test> <!-- Choose Translation Plan -->
+    <test name="Make An Order Testcase" duration-ms="34635" started-at="2018-04-13T09:58:17Z" finished-at="2018-04-13T09:58:52Z">
+      <class name="com.testcase.MakeOrderTest">
+        <test-method status="PASS" signature="doTheOrder()[pri:1, instance:com.testcase.MakeOrderTest@5025a98f]" name="doTheOrder" duration-ms="30375" started-at="2018-04-13T15:28:17Z" finished-at="2018-04-13T15:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doTheOrder -->
+        <test-method status="PASS" signature="clientLogout()[pri:2, instance:com.testcase.MakeOrderTest@5025a98f]" name="clientLogout" duration-ms="4253" started-at="2018-04-13T15:28:48Z" finished-at="2018-04-13T15:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clientLogout -->
+      </class> <!-- com.testcase.MakeOrderTest -->
+    </test> <!-- Make An Order Testcase -->
+    <test name="Reviewer" duration-ms="59906" started-at="2018-04-13T09:58:52Z" finished-at="2018-04-13T09:59:52Z">
+      <class name="com.testcase.ReviewerTest">
+        <test-method status="PASS" signature="reviewerDoLogin()[pri:1, instance:com.testcase.ReviewerTest@dc24521]" name="reviewerDoLogin" duration-ms="9920" started-at="2018-04-13T15:28:52Z" finished-at="2018-04-13T15:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reviewerDoLogin -->
+        <test-method status="PASS" signature="doSelectReviewerProject()[pri:2, instance:com.testcase.ReviewerTest@dc24521]" name="doSelectReviewerProject" duration-ms="1997" started-at="2018-04-13T15:29:02Z" finished-at="2018-04-13T15:29:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSelectReviewerProject -->
+        <test-method status="PASS" signature="automatedTranslation()[pri:3, instance:com.testcase.ReviewerTest@dc24521]" name="automatedTranslation" duration-ms="3230" started-at="2018-04-13T15:29:04Z" finished-at="2018-04-13T15:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automatedTranslation -->
+        <test-method status="PASS" signature="doAcceptWord()[pri:4, instance:com.testcase.ReviewerTest@dc24521]" name="doAcceptWord" duration-ms="32381" started-at="2018-04-13T15:29:07Z" finished-at="2018-04-13T15:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAcceptWord -->
+        <test-method status="PASS" signature="doClickOnComplete()[pri:5, instance:com.testcase.ReviewerTest@dc24521]" name="doClickOnComplete" duration-ms="1333" started-at="2018-04-13T15:29:40Z" depends-on-methods="com.testcase.ReviewerTest.doAcceptWord" finished-at="2018-04-13T15:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doClickOnComplete -->
+        <test-method status="PASS" signature="doClickOnLogo()[pri:6, instance:com.testcase.ReviewerTest@dc24521]" name="doClickOnLogo" duration-ms="6924" started-at="2018-04-13T15:29:41Z" depends-on-methods="com.testcase.ReviewerTest.doClickOnComplete" finished-at="2018-04-13T15:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doClickOnLogo -->
+        <test-method status="PASS" signature="doTranslatorLogout()[pri:7, instance:com.testcase.ReviewerTest@dc24521]" name="doTranslatorLogout" duration-ms="4087" started-at="2018-04-13T15:29:48Z" finished-at="2018-04-13T15:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doTranslatorLogout -->
+      </class> <!-- com.testcase.ReviewerTest -->
+    </test> <!-- Reviewer -->
+  </suite> <!-- Automation Test Suite -->
+</testng-results>

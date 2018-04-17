@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.ExtentReport.ExtentReporterNG"/>
+  </listeners>
+  <test name="Manager(failed)">
+    <classes>
+      <class name="com.testcase.ManagerTest">
+        <methods>
+          <include name="assignProjectToTranslator"/>
+        </methods>
+      </class> <!-- com.testcase.ManagerTest -->
+    </classes>
+  </test> <!-- Manager(failed) -->
+  <test name="Reviewer(failed)">
+    <classes>
+      <class name="com.testcase.ReviewerTest">
+        <methods>
+          <include name="doSelectReviewerProject"/>
+          <include name="doAcceptWord"/>
+          <include name="automatedTranslation"/>
+          <include name="doClickOnComplete"/>
+          <include name="doTranslatorLogout"/>
+          <include name="doClickOnLogo"/>
+        </methods>
+      </class> <!-- com.testcase.ReviewerTest -->
+    </classes>
+  </test> <!-- Reviewer(failed) -->
+</suite> <!-- Failed suite [Automation Test Suite] -->

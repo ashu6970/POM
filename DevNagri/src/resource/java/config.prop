@@ -1,0 +1,14 @@
+url= http://staging.devnagri.com
+browser= chrome
+username= test.client@devnagri.com
+password= secret
+username_manager=test.manager@devnagri.com
+
+#File location
+
+File_po = /home/fourtek/Downloads/File Format/strings.po
+File_stringsdict=/home/fourtek/Downloads/File Format/strings.po
+File_xml =/home/fourtek/Downloads/File Format/wow_calendar.xml
+File_Tiff = /home/fourtek/Downloads/File Format/Crémieux11.tiff
+File_zip = /home/fourtek/Downloads/File Format/five.zip
+File_py = /home/fourtek/Downloads/File Format/Cricket_score.py
