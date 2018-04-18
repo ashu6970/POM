@@ -1,5 +1,8 @@
 package com.pages.product;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -20,8 +23,17 @@ public class Manager extends Base_Test{
 	@FindBy(xpath = "//*[@id='container']/div[2]/div[1]/div/h4/a") // To Select the project
 	WebElement selectProject;
 	
+	@FindBy(xpath = "//*[@id='container']/div[2]/div[2]/div/h4/a") // To Select the project
+	WebElement selectProject1;
+	
 	@FindBy(xpath = "//div[@class='container-fluid']/child::div[5]/div[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[5]/div[1]/button[1]/i[1]") // To Select order button													
 	WebElement btn_selectOrder;
+	
+	@FindBy(xpath = "//*[@id='files']/div/table/tbody/tr/td[5]/div/div/a[2]") // To Select the translator button												
+	WebElement btn_translatorProject;
+	
+	@FindBy(xpath = "//div[@class='col-md-5 right-controls p-t-0']/button[1]")  // To select the accept button.													
+	WebElement btn_accpet;
 	
 	@FindBy(xpath = "//*[@id='files']/div/table/tbody/tr/td[5]/div/div/a[1]") // To Select the assign button												
 	WebElement btn_assignProject;
@@ -50,6 +62,12 @@ public class Manager extends Base_Test{
 	@FindBy(xpath="//ul[@class='navbar-nav my-lg-0']/child::li[4]/a[1]") // Select the user button
 	WebElement btn_user;
 
+	@FindBy(xpath = "//div[@class='col-md-12 automated-control']")  // To Select automated Translation.													
+	WebElement btn_automatedTranslationuUpDown;
+	
+	@FindBy(xpath = "//div[@class='col-md-1 drops form-buttons p-t-0 no-border']/button")  // To Enter the text in the text field.													
+	WebElement btn_complete;
+	
 	public Manager() {
 
 		PageFactory.initElements(driver, this);
@@ -67,6 +85,11 @@ public class Manager extends Base_Test{
 	public void selectCreatedProject() throws Exception
 	{
 		javaScriptClick(selectProject);
+	}
+	
+	public void selectCreatedProjectAfterSuite() throws Exception
+	{
+		javaScriptClick(selectProject1);
 	}
 	
 	public void assignLanguageTranslator()
@@ -90,7 +113,40 @@ public class Manager extends Base_Test{
 	{
 		btn_assignProject.click();
 	}
+	public void translator()
+	{
+		btn_translatorProject.click();
+	}
+	public void automatedTranslationUpDown() throws Exception
+	{
+		Thread.sleep(3000);
+		 javaScriptClick(btn_automatedTranslationuUpDown);
+	}
+	public void completeTranslation() throws Exception
+	{
+	waitForElement(btn_complete);
+	javaScriptClick(btn_complete);
+	Thread.sleep(2000);
+	}
 
+	public void selectWords() throws Exception
+	{
+	List<WebElement> selectAllWords = driver.findElements(By.xpath("//div[@class='sentence-list  success']"));
+	int size=selectAllWords.size();
+	
+	for(int i=0; i<size;i++)
+	{
+		Thread.sleep(2000);
+		selectAllWords.get(i).click();
+		System.out.println(size);
+		System.out.println(i);
+		Thread.sleep(3000);	
+		javaScriptClick(btn_accpet);
+
+	
+	}
+	}
+	
 	public String assignProjectToTranslator()
 	{
 	return validationAssignProject.getText();
@@ -103,4 +159,6 @@ public class Manager extends Base_Test{
 		 Thread.sleep(2000);
 		 btn_logout.click();
 	  }
+      
+      
 }

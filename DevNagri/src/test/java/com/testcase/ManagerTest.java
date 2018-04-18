@@ -1,5 +1,6 @@
 package com.testcase;
 import org.testng.Assert;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.Test;
 
 import com.main.product.Base_Test;
@@ -51,4 +52,19 @@ public class ManagerTest extends Base_Test {
 	manager.managerLogout();
 	}
 
+	@AfterSuite
+	public void managerTranslationPage() throws Exception
+	{
+		manager.login("test.manager@devnagri.com","secret");
+		manager.selectCreatedProjectAfterSuite();	
+		pageScrolldown();
+		manager.createdOrder();
+		manager.translator();
+		manager.automatedTranslationUpDown();
+		//manager.selectWords();
+		manager.completeTranslation();
+		System.out.println("Abc");
+		
+		
+	}
 }

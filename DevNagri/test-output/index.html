@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Automation_Test_Suite">
-              <span class="suite-name border-passed">Automation Test Suite</span>
+              <span class="suite-name border-failed">Automation Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">29 methods,   29 passed</span>
+                    <span class="method-stats">28 methods, 1 failed,   27 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Automation_Test_Suite" class="hide-methods failed suite-Automation_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-Automation_Test_Suite" class="show-methods failed suite-Automation_Test_Suite"> (show)</a> <!-- show-methods failed suite-Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Automation_Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ManagerTest" hash-for-method="assignProjectToTranslator">assignProjectToTranslator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Automation_Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +114,6 @@
                       <a href="#" panel-name="suite-Automation_Test_Suite" class="show-methods passed suite-Automation_Test_Suite"> (show)</a> <!-- show-methods passed suite-Automation_Test_Suite -->
                     </span>
                     <div class="method-list-content passed suite-Automation_Test_Suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ReviewerTest" hash-for-method="automatedTranslation">automatedTranslation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.LoginPageTest" hash-for-method="checkCaseSensitive">checkCaseSensitive</a> <!-- method navigator-link -->
@@ -132,22 +141,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ReviewerTest" hash-for-method="doAcceptWord">doAcceptWord</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ReviewerTest" hash-for-method="doClickOnComplete">doClickOnComplete</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.CreateProjectTest" hash-for-method="doClickOnLetsStartButton">doClickOnLetsStartButton</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ReviewerTest" hash-for-method="doClickOnLogo">doClickOnLogo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -157,17 +151,17 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ReviewerTest" hash-for-method="doSelectReviewerProject">doSelectReviewerProject</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ManagerTest" hash-for-method="doManagerLogout">doManagerLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ManagerTest" hash-for-method="doMangerLogin">doMangerLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.MakeOrderTest" hash-for-method="doTheOrder">doTheOrder</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ReviewerTest" hash-for-method="doTranslatorLogout">doTranslatorLogout</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -212,17 +206,27 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ReviewerTest" hash-for-method="reviewerDoLogin">reviewerDoLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.FileUploadTest" hash-for-method="selectFileFormat">selectFileFormat</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ManagerTest" hash-for-method="selectLanguageTranslator">selectLanguageTranslator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ManagerTest" hash-for-method="selectOrder">selectOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ChooseTranslationPlanTest" hash-for-method="selectTheBestPlan">selectTheBestPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ManagerTest" hash-for-method="selectTheCreatedProject">selectTheCreatedProject</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -257,193 +261,26 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Automation_Test_Suite" class="panel Automation_Test_Suite">
-          <div class="suite-Automation_Test_Suite-class-passed">
+          <div class="suite-Automation_Test_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.testcase.LoginPageTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.testcase.ManagerTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkCaseSensitive">
-                  </a> <!-- checkCaseSensitive -->
-                  <span class="method-name">checkCaseSensitive</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkUnicodeTransformationFormat">
-                  </a> <!-- checkUnicodeTransformationFormat -->
-                  <span class="method-name">checkUnicodeTransformationFormat</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="doLogin">
-                  </a> <!-- doLogin -->
-                  <span class="method-name">doLogin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="invalidEmail">
-                  </a> <!-- invalidEmail -->
-                  <span class="method-name">invalidEmail</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="invalidPassword">
-                  </a> <!-- invalidPassword -->
-                  <span class="method-name">invalidPassword</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="invalidPwdEmail">
-                  </a> <!-- invalidPwdEmail -->
-                  <span class="method-name">invalidPwdEmail</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="openBrowser">
-                  </a> <!-- openBrowser -->
-                  <span class="method-name">openBrowser</span>
+                  <a name="assignProjectToTranslator">
+                  </a> <!-- assignProjectToTranslator -->
+                  <span class="method-name">assignProjectToTranslator</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Successfully assigned!] but found [×
+Successfully assigned!]
+	at com.testcase.ManagerTest.assignProjectToTranslator(ManagerTest.java:46)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Automation_Test_Suite-class-passed -->
-          <div class="suite-Automation_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.testcase.MakeOrderTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="clientLogout">
-                  </a> <!-- clientLogout -->
-                  <span class="method-name">clientLogout</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="doTheOrder">
-                  </a> <!-- doTheOrder -->
-                  <span class="method-name">doTheOrder</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Automation_Test_Suite-class-passed -->
-          <div class="suite-Automation_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.testcase.FileUploadTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="clickOnAddNewFile">
-                  </a> <!-- clickOnAddNewFile -->
-                  <span class="method-name">clickOnAddNewFile</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="enterFileLocation">
-                  </a> <!-- enterFileLocation -->
-                  <span class="method-name">enterFileLocation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="selectFileFormat">
-                  </a> <!-- selectFileFormat -->
-                  <span class="method-name">selectFileFormat</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Automation_Test_Suite-class-passed -->
-          <div class="suite-Automation_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.testcase.ChooseTranslationPlanTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="choosePlanForTranslation">
-                  </a> <!-- choosePlanForTranslation -->
-                  <span class="method-name">choosePlanForTranslation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="selectTheBestPlan">
-                  </a> <!-- selectTheBestPlan -->
-                  <span class="method-name">selectTheBestPlan</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Automation_Test_Suite-class-passed -->
-          <div class="suite-Automation_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.testcase.ReviewerTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="automatedTranslation">
-                  </a> <!-- automatedTranslation -->
-                  <span class="method-name">automatedTranslation</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="doAcceptWord">
-                  </a> <!-- doAcceptWord -->
-                  <span class="method-name">doAcceptWord</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="doClickOnComplete">
-                  </a> <!-- doClickOnComplete -->
-                  <span class="method-name">doClickOnComplete</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="doClickOnLogo">
-                  </a> <!-- doClickOnLogo -->
-                  <span class="method-name">doClickOnLogo</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="doSelectReviewerProject">
-                  </a> <!-- doSelectReviewerProject -->
-                  <span class="method-name">doSelectReviewerProject</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="doTranslatorLogout">
-                  </a> <!-- doTranslatorLogout -->
-                  <span class="method-name">doTranslatorLogout</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="reviewerDoLogin">
-                  </a> <!-- reviewerDoLogin -->
-                  <span class="method-name">reviewerDoLogin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Automation_Test_Suite-class-passed -->
+          </div> <!-- suite-Automation_Test_Suite-class-failed -->
           <div class="suite-Automation_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -508,6 +345,179 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Automation_Test_Suite-class-passed -->
+          <div class="suite-Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcase.ManagerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doManagerLogout">
+                  </a> <!-- doManagerLogout -->
+                  <span class="method-name">doManagerLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doMangerLogin">
+                  </a> <!-- doMangerLogin -->
+                  <span class="method-name">doMangerLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectLanguageTranslator">
+                  </a> <!-- selectLanguageTranslator -->
+                  <span class="method-name">selectLanguageTranslator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectOrder">
+                  </a> <!-- selectOrder -->
+                  <span class="method-name">selectOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectTheCreatedProject">
+                  </a> <!-- selectTheCreatedProject -->
+                  <span class="method-name">selectTheCreatedProject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Suite-class-passed -->
+          <div class="suite-Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcase.FileUploadTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnAddNewFile">
+                  </a> <!-- clickOnAddNewFile -->
+                  <span class="method-name">clickOnAddNewFile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterFileLocation">
+                  </a> <!-- enterFileLocation -->
+                  <span class="method-name">enterFileLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectFileFormat">
+                  </a> <!-- selectFileFormat -->
+                  <span class="method-name">selectFileFormat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Suite-class-passed -->
+          <div class="suite-Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcase.MakeOrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clientLogout">
+                  </a> <!-- clientLogout -->
+                  <span class="method-name">clientLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doTheOrder">
+                  </a> <!-- doTheOrder -->
+                  <span class="method-name">doTheOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Suite-class-passed -->
+          <div class="suite-Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcase.ChooseTranslationPlanTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="choosePlanForTranslation">
+                  </a> <!-- choosePlanForTranslation -->
+                  <span class="method-name">choosePlanForTranslation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectTheBestPlan">
+                  </a> <!-- selectTheBestPlan -->
+                  <span class="method-name">selectTheBestPlan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Suite-class-passed -->
+          <div class="suite-Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcase.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCaseSensitive">
+                  </a> <!-- checkCaseSensitive -->
+                  <span class="method-name">checkCaseSensitive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkUnicodeTransformationFormat">
+                  </a> <!-- checkUnicodeTransformationFormat -->
+                  <span class="method-name">checkUnicodeTransformationFormat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin">
+                  </a> <!-- doLogin -->
+                  <span class="method-name">doLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidEmail">
+                  </a> <!-- invalidEmail -->
+                  <span class="method-name">invalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPassword">
+                  </a> <!-- invalidPassword -->
+                  <span class="method-name">invalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPwdEmail">
+                  </a> <!-- invalidPwdEmail -->
+                  <span class="method-name">invalidPwdEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openBrowser">
+                  </a> <!-- openBrowser -->
+                  <span class="method-name">openBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Suite-class-passed -->
         </div> <!-- panel Automation_Test_Suite -->
         <div panel-name="test-xml-Automation_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -546,11 +556,11 @@
       &lt;class name=&quot;com.testcase.MakeOrderTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Make An Order Testcase --&gt;
-  &lt;test name=&quot;Reviewer&quot;&gt;
+  &lt;test name=&quot;Manager&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.testcase.ReviewerTest&quot;/&gt;
+      &lt;class name=&quot;com.testcase.ManagerTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Reviewer --&gt;
+  &lt;/test&gt; &lt;!-- Manager --&gt;
 &lt;/suite&gt; &lt;!-- Automation Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -577,7 +587,7 @@
                 <span class="test-name">Make An Order Testcase (1 class)</span>
               </li>
               <li>
-                <span class="test-name">Reviewer (1 class)</span>
+                <span class="test-name">Manager (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -639,128 +649,124 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(29);
+data.addRows(28);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'doAcceptWord')
-data.setCell(0, 2, 'com.testcase.ReviewerTest')
-data.setCell(0, 3, 32381);
+data.setCell(0, 1, 'doTheOrder')
+data.setCell(0, 2, 'com.testcase.MakeOrderTest')
+data.setCell(0, 3, 30201);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'doTheOrder')
-data.setCell(1, 2, 'com.testcase.MakeOrderTest')
-data.setCell(1, 3, 30375);
+data.setCell(1, 1, 'openBrowser')
+data.setCell(1, 2, 'com.testcase.LoginPageTest')
+data.setCell(1, 3, 18015);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'onlySelectTargetLanguage')
 data.setCell(2, 2, 'com.testcase.CreateProjectTest')
-data.setCell(2, 3, 10595);
+data.setCell(2, 3, 10453);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'reviewerDoLogin')
-data.setCell(3, 2, 'com.testcase.ReviewerTest')
-data.setCell(3, 3, 9920);
+data.setCell(3, 1, 'enterFileLocation')
+data.setCell(3, 2, 'com.testcase.FileUploadTest')
+data.setCell(3, 3, 9451);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'selectFileFormat')
 data.setCell(4, 2, 'com.testcase.FileUploadTest')
-data.setCell(4, 3, 8766);
+data.setCell(4, 3, 8788);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'enterFileLocation')
-data.setCell(5, 2, 'com.testcase.FileUploadTest')
-data.setCell(5, 3, 8494);
+data.setCell(5, 1, 'assignProjectToTranslator')
+data.setCell(5, 2, 'com.testcase.ManagerTest')
+data.setCell(5, 3, 7759);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'doLogin')
-data.setCell(6, 2, 'com.testcase.LoginPageTest')
-data.setCell(6, 3, 7833);
+data.setCell(6, 1, 'doClickOnLetsStartButton')
+data.setCell(6, 2, 'com.testcase.CreateProjectTest')
+data.setCell(6, 3, 7488);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'doClickOnLetsStartButton')
+data.setCell(7, 1, 'targetLanguage')
 data.setCell(7, 2, 'com.testcase.CreateProjectTest')
-data.setCell(7, 3, 7458);
+data.setCell(7, 3, 7389);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'targetLanguage')
-data.setCell(8, 2, 'com.testcase.CreateProjectTest')
-data.setCell(8, 3, 7404);
+data.setCell(8, 1, 'choosePlanForTranslation')
+data.setCell(8, 2, 'com.testcase.ChooseTranslationPlanTest')
+data.setCell(8, 3, 5535);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'openBrowser')
-data.setCell(9, 2, 'com.testcase.LoginPageTest')
-data.setCell(9, 3, 7179);
+data.setCell(9, 1, 'clientLogout')
+data.setCell(9, 2, 'com.testcase.MakeOrderTest')
+data.setCell(9, 3, 4006);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'checkCaseSensitive')
+data.setCell(10, 1, 'doLogin')
 data.setCell(10, 2, 'com.testcase.LoginPageTest')
-data.setCell(10, 3, 6955);
+data.setCell(10, 3, 3989);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'doClickOnLogo')
-data.setCell(11, 2, 'com.testcase.ReviewerTest')
-data.setCell(11, 3, 6924);
+data.setCell(11, 1, 'doManagerLogout')
+data.setCell(11, 2, 'com.testcase.ManagerTest')
+data.setCell(11, 3, 3934);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'choosePlanForTranslation')
-data.setCell(12, 2, 'com.testcase.ChooseTranslationPlanTest')
-data.setCell(12, 3, 6593);
+data.setCell(12, 1, 'onlyEnterProjectName')
+data.setCell(12, 2, 'com.testcase.CreateProjectTest')
+data.setCell(12, 3, 3676);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'onlyEnterProjectName')
-data.setCell(13, 2, 'com.testcase.CreateProjectTest')
-data.setCell(13, 3, 6045);
+data.setCell(13, 1, 'doMangerLogin')
+data.setCell(13, 2, 'com.testcase.ManagerTest')
+data.setCell(13, 3, 3018);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'clickOnAddNewFile')
-data.setCell(14, 2, 'com.testcase.FileUploadTest')
-data.setCell(14, 3, 5143);
+data.setCell(14, 1, 'checkCaseSensitive')
+data.setCell(14, 2, 'com.testcase.LoginPageTest')
+data.setCell(14, 3, 2632);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'clientLogout')
-data.setCell(15, 2, 'com.testcase.MakeOrderTest')
-data.setCell(15, 3, 4253);
+data.setCell(15, 1, 'selectOrder')
+data.setCell(15, 2, 'com.testcase.ManagerTest')
+data.setCell(15, 3, 2339);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'doTranslatorLogout')
-data.setCell(16, 2, 'com.testcase.ReviewerTest')
-data.setCell(16, 3, 4087);
+data.setCell(16, 1, 'selectTheCreatedProject')
+data.setCell(16, 2, 'com.testcase.ManagerTest')
+data.setCell(16, 3, 2270);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'checkUnicodeTransformationFormat')
-data.setCell(17, 2, 'com.testcase.LoginPageTest')
-data.setCell(17, 3, 3933);
+data.setCell(17, 1, 'selectTheBestPlan')
+data.setCell(17, 2, 'com.testcase.ChooseTranslationPlanTest')
+data.setCell(17, 3, 2247);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'startProject')
-data.setCell(18, 2, 'com.testcase.CreateProjectTest')
-data.setCell(18, 3, 3600);
+data.setCell(18, 1, 'invalidEmail')
+data.setCell(18, 2, 'com.testcase.LoginPageTest')
+data.setCell(18, 3, 1903);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'withOutSelectAllOptions')
-data.setCell(19, 2, 'com.testcase.CreateProjectTest')
-data.setCell(19, 3, 3597);
+data.setCell(19, 1, 'selectLanguageTranslator')
+data.setCell(19, 2, 'com.testcase.ManagerTest')
+data.setCell(19, 3, 1644);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'automatedTranslation')
-data.setCell(20, 2, 'com.testcase.ReviewerTest')
-data.setCell(20, 3, 3230);
+data.setCell(20, 1, 'clickOnAddNewFile')
+data.setCell(20, 2, 'com.testcase.FileUploadTest')
+data.setCell(20, 3, 1591);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'invalidPwdEmail')
-data.setCell(21, 2, 'com.testcase.LoginPageTest')
-data.setCell(21, 3, 3005);
+data.setCell(21, 1, 'withOutSelectAllOptions')
+data.setCell(21, 2, 'com.testcase.CreateProjectTest')
+data.setCell(21, 3, 1517);
 data.setCell(22, 0, 22)
 data.setCell(22, 1, 'invalidPassword')
 data.setCell(22, 2, 'com.testcase.LoginPageTest')
-data.setCell(22, 3, 2858);
+data.setCell(22, 3, 1499);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'invalidEmail')
+data.setCell(23, 1, 'invalidPwdEmail')
 data.setCell(23, 2, 'com.testcase.LoginPageTest')
-data.setCell(23, 3, 2786);
+data.setCell(23, 3, 1456);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'doSelectReviewerProject')
-data.setCell(24, 2, 'com.testcase.ReviewerTest')
-data.setCell(24, 3, 1997);
+data.setCell(24, 1, 'checkUnicodeTransformationFormat')
+data.setCell(24, 2, 'com.testcase.LoginPageTest')
+data.setCell(24, 3, 1449);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'selectTheBestPlan')
-data.setCell(25, 2, 'com.testcase.ChooseTranslationPlanTest')
-data.setCell(25, 3, 1580);
+data.setCell(25, 1, 'startProject')
+data.setCell(25, 2, 'com.testcase.CreateProjectTest')
+data.setCell(25, 3, 1355);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'doClickOnComplete')
-data.setCell(26, 2, 'com.testcase.ReviewerTest')
-data.setCell(26, 3, 1333);
+data.setCell(26, 1, 'projectType')
+data.setCell(26, 2, 'com.testcase.CreateProjectTest')
+data.setCell(26, 3, 1122);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'projectType')
+data.setCell(27, 1, 'typeProjectName')
 data.setCell(27, 2, 'com.testcase.CreateProjectTest')
-data.setCell(27, 3, 1148);
-data.setCell(28, 0, 28)
-data.setCell(28, 1, 'typeProjectName')
-data.setCell(28, 2, 'com.testcase.CreateProjectTest')
-data.setCell(28, 3, 392);
+data.setCell(27, 3, 268);
 window.suiteTableData['Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-Automation_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Automation_Test_Suite">
               </div> <!-- times-div-Automation_Test_Suite -->
             </div> <!-- times-div -->
@@ -779,9 +785,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.testcase.LoginPageTest</span>
+              <span class="ignored-class-name">com.testcase.CreateProjectTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">forgetPassword</span>
+                <span class="ignored-method-name">industryType</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -793,9 +799,9 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.testcase.CreateProjectTest</span>
+              <span class="ignored-class-name">com.testcase.LoginPageTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">industryType</span>
+                <span class="ignored-method-name">forgetPassword</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -814,131 +820,133 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">invalidEmail</span>
-                <span class="method-start">7188 ms</span>
+                <span class="method-start">18020 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">invalidPassword</span>
-                <span class="method-start">9977 ms</span>
+                <span class="method-start">19927 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">invalidPwdEmail</span>
-                <span class="method-start">12846 ms</span>
+                <span class="method-start">21427 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkCaseSensitive</span>
-                <span class="method-start">15853 ms</span>
+                <span class="method-start">22885 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkUnicodeTransformationFormat</span>
-                <span class="method-start">22811 ms</span>
+                <span class="method-start">25518 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">doLogin</span>
-                <span class="method-start">26748 ms</span>
+                <span class="method-start">26969 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcase.CreateProjectTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">startProject</span>
-                <span class="method-start">34626 ms</span>
+                <span class="method-start">30979 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">withOutSelectAllOptions</span>
-                <span class="method-start">38228 ms</span>
+                <span class="method-start">32336 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">onlyEnterProjectName</span>
-                <span class="method-start">41828 ms</span>
+                <span class="method-start">33854 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">onlySelectTargetLanguage</span>
-                <span class="method-start">47875 ms</span>
+                <span class="method-start">37531 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">typeProjectName</span>
-                <span class="method-start">58475 ms</span>
+                <span class="method-start">47985 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">projectType</span>
-                <span class="method-start">58869 ms</span>
+                <span class="method-start">48255 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">targetLanguage</span>
-                <span class="method-start">60025 ms</span>
+                <span class="method-start">49379 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">doClickOnLetsStartButton</span>
-                <span class="method-start">67432 ms</span>
+                <span class="method-start">56770 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcase.FileUploadTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">clickOnAddNewFile</span>
-                <span class="method-start">74904 ms</span>
+                <span class="method-start">64310 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">enterFileLocation</span>
-                <span class="method-start">80049 ms</span>
+                <span class="method-start">65907 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectFileFormat</span>
-                <span class="method-start">88544 ms</span>
+                <span class="method-start">75359 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcase.ChooseTranslationPlanTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">choosePlanForTranslation</span>
-                <span class="method-start">97318 ms</span>
+                <span class="method-start">84153 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectTheBestPlan</span>
-                <span class="method-start">103912 ms</span>
+                <span class="method-start">89691 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcase.MakeOrderTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">doTheOrder</span>
-                <span class="method-start">105511 ms</span>
+                <span class="method-start">91943 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clientLogout</span>
-                <span class="method-start">135887 ms</span>
+                <span class="method-start">122145 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.testcase.ReviewerTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.testcase.ManagerTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">reviewerDoLogin</span>
-                <span class="method-start">140151 ms</span>
+                <span class="method-name">doMangerLogin</span>
+                <span class="method-start">126163 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">doSelectReviewerProject</span>
-                <span class="method-start">150074 ms</span>
+                <span class="method-name">selectTheCreatedProject</span>
+                <span class="method-start">129184 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">automatedTranslation</span>
-                <span class="method-start">152075 ms</span>
+                <span class="method-name">selectOrder</span>
+                <span class="method-start">131456 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">doAcceptWord</span>
-                <span class="method-start">155306 ms</span>
+                <span class="method-name">selectLanguageTranslator</span>
+                <span class="method-start">133797 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">doClickOnComplete</span>
-                <span class="method-start">187692 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assignProjectToTranslator</span>
+                <span class="method-start">135442 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">doClickOnLogo</span>
-                <span class="method-start">189027 ms</span>
+                <span class="method-name">doManagerLogout</span>
+                <span class="method-start">143205 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">doTranslatorLogout</span>
-                <span class="method-start">195962 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">managerTranslationPage</span>
+                <span class="method-start">147169 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
