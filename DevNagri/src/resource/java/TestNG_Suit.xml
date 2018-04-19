@@ -34,7 +34,7 @@
 	   <class name="com.testcase.MakeOrderTest"/>
 	 </classes>
 </test>
-<!--
+
 <test name="Manager">
 	 <classes>
 	   <class name="com.testcase.ManagerTest"/>
@@ -52,5 +52,5 @@
 	   <class name="com.testcase.ReviewerTest"/>
 	 </classes>
 </test>
--->
+
 </suite>

@@ -40,7 +40,7 @@ public class Translator extends Base_Test {
 	WebElement btn_complete;
 	
 	
-	@FindBy(xpath = "//div[@class='container-fluid']/div/div[37]/div/a[1]")  // To select the project.													
+	@FindBy(xpath = "//div[@class='col-md-3 col-xm-4 col-xs-6'][last()]/div/a")  // To select the project.													
 	WebElement selectTranslatorProject;
 	
 	@FindBy(xpath = "//a[@href='http://staging.devnagri.com']")  // To select the devnagri logo.													
@@ -133,9 +133,10 @@ public class Translator extends Base_Test {
 	Thread.sleep(2000);
 	}
 	
-	public void clickDeva()
+	public void clickDeva() throws InterruptedException
 	{
 		devlogo.click();
+		Thread.sleep(3000);
 	}
 	
 	 public void translatorLogout() throws InterruptedException

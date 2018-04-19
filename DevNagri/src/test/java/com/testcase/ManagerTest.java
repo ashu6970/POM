@@ -1,4 +1,5 @@
 package com.testcase;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.Test;
@@ -56,19 +57,33 @@ public class ManagerTest extends Base_Test {
 	public void managerTranslationPage() throws Exception
 	{
 		manager.login("test.manager@devnagri.com","secret");
-		manager.selectCreatedProjectAfterSuite();	
+		manager.selectCreatedProject();	
 		pageScrolldown();
 		manager.createdOrder();
 		manager.translator();
 		manager.automatedTranslationUpDown();
 		//manager.selectWords();
 		manager.completeTranslation();
-		System.out.println("Abc");		
+		Thread.sleep(2000);
+		manager.managerLogout();
+				
 	}
 	
-	@AfterSuite(dependsOnMethods = { "docompleteTranslation" })
-	public void Ab()
+	@AfterSuite(dependsOnMethods = { "managerTranslationPage" })
+	public void ClientTranslationPage() throws Exception
 	{
+		manager.login("test.client@devnagri.com","secret");
+		manager.selectCreatedProject();
+		manager.createdOrder();
+		manager.clientTranslator();
+		manager.completeTranslation();
+		Thread.sleep(2000);
+		manager.managerLogout();
+				
+		
+
+		
+		
 		
 	}
 	

@@ -45,7 +45,7 @@ public class TranslatorTest extends Base_Test{
 	}
 	
 	@Test(priority=6,dependsOnMethods = { "docompleteTranslation" } )
-	public void doClickOnLogo()
+	public void doClickOnLogo() throws InterruptedException
 	{
 		translator.clickDeva();
 	}

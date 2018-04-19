@@ -4,31 +4,39 @@
   <listeners>
     <listener class-name="com.ExtentReport.ExtentReporterNG"/>
   </listeners>
-  <test name="File Upload Testcase(failed)">
+  <test name="Manager(failed)">
     <classes>
-      <class name="com.testcase.FileUploadTest">
+      <class name="com.testcase.ManagerTest">
         <methods>
-          <include name="enterFileLocation"/>
+          <include name="assignProjectToTranslator"/>
+          <include name="managerTranslationPage"/>
+          <include name="ClientTranslationPage"/>
         </methods>
-      </class> <!-- com.testcase.FileUploadTest -->
+      </class> <!-- com.testcase.ManagerTest -->
     </classes>
-  </test> <!-- File Upload Testcase(failed) -->
-  <test name="Choose Translation Plan(failed)">
+  </test> <!-- Manager(failed) -->
+  <test name="Translator(failed)">
     <classes>
-      <class name="com.testcase.ChooseTranslationPlanTest">
+      <class name="com.testcase.TranslatorTest">
         <methods>
-          <include name="choosePlanForTranslation"/>
+          <include name="doTranslatorLogout"/>
         </methods>
-      </class> <!-- com.testcase.ChooseTranslationPlanTest -->
+      </class> <!-- com.testcase.TranslatorTest -->
     </classes>
-  </test> <!-- Choose Translation Plan(failed) -->
-  <test name="Make An Order Testcase(failed)">
+  </test> <!-- Translator(failed) -->
+  <test name="Reviewer(failed)">
     <classes>
-      <class name="com.testcase.MakeOrderTest">
+      <class name="com.testcase.ReviewerTest">
         <methods>
-          <include name="doTheOrder"/>
+          <include name="reviewerDoLogin"/>
+          <include name="doSelectReviewerProject"/>
+          <include name="doAcceptWord"/>
+          <include name="automatedTranslation"/>
+          <include name="doClickOnComplete"/>
+          <include name="doTranslatorLogout"/>
+          <include name="doClickOnLogo"/>
         </methods>
-      </class> <!-- com.testcase.MakeOrderTest -->
+      </class> <!-- com.testcase.ReviewerTest -->
     </classes>
-  </test> <!-- Make An Order Testcase(failed) -->
+  </test> <!-- Reviewer(failed) -->
 </suite> <!-- Failed suite [Automation Test Suite] -->

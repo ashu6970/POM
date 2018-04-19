@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Automation_Test_Suite">
-              <span class="suite-name border-passed">Automation Test Suite</span>
+              <span class="suite-name border-failed">Automation Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Automation_Test_Suite">
-                    <span class="test-stats">5 tests</span>
+                    <span class="test-stats">8 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,65 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">22 methods,   22 passed</span>
+                    <span class="method-stats">42 methods, 7 failed,  1 skipped,  34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Automation_Test_Suite" class="hide-methods failed suite-Automation_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-Automation_Test_Suite" class="show-methods failed suite-Automation_Test_Suite"> (show)</a> <!-- show-methods failed suite-Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Automation_Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ManagerTest" hash-for-method="assignProjectToTranslator">assignProjectToTranslator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ReviewerTest" hash-for-method="automatedTranslation">automatedTranslation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ReviewerTest" hash-for-method="doClickOnComplete">doClickOnComplete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ReviewerTest" hash-for-method="doSelectReviewerProject">doSelectReviewerProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.TranslatorTest" hash-for-method="doTranslatorLogout">doTranslatorLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ReviewerTest" hash-for-method="doTranslatorLogout">doTranslatorLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ReviewerTest" hash-for-method="reviewerDoLogin">reviewerDoLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Automation_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Automation_Test_Suite" class="hide-methods skipped suite-Automation_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-Automation_Test_Suite" class="show-methods skipped suite-Automation_Test_Suite"> (show)</a> <!-- show-methods skipped suite-Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Automation_Test_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ReviewerTest" hash-for-method="doClickOnLogo">doClickOnLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Automation_Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +158,11 @@
                       <a href="#" panel-name="suite-Automation_Test_Suite" class="show-methods passed suite-Automation_Test_Suite"> (show)</a> <!-- show-methods passed suite-Automation_Test_Suite -->
                     </span>
                     <div class="method-list-content passed suite-Automation_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.TranslatorTest" hash-for-method="automatedTranslation">automatedTranslation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.LoginPageTest" hash-for-method="checkCaseSensitive">checkCaseSensitive</a> <!-- method navigator-link -->
@@ -127,7 +190,17 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ReviewerTest" hash-for-method="doAcceptWord">doAcceptWord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.CreateProjectTest" hash-for-method="doClickOnLetsStartButton">doClickOnLetsStartButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.TranslatorTest" hash-for-method="doClickOnLogo">doClickOnLogo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -137,7 +210,32 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ManagerTest" hash-for-method="doManagerLogout">doManagerLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ManagerTest" hash-for-method="doMangerLogin">doMangerLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.TranslatorTest" hash-for-method="doSelectTranslatorProject">doSelectTranslatorProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.MakeOrderTest" hash-for-method="doTheOrder">doTheOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.TranslatorTest" hash-for-method="docompleteTranslation">docompleteTranslation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.TranslatorTest" hash-for-method="doselectWordsAndEnterText">doselectWordsAndEnterText</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -187,7 +285,22 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ManagerTest" hash-for-method="selectLanguageTranslator">selectLanguageTranslator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ManagerTest" hash-for-method="selectOrder">selectOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ChooseTranslationPlanTest" hash-for-method="selectTheBestPlan">selectTheBestPlan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.ManagerTest" hash-for-method="selectTheCreatedProject">selectTheCreatedProject</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -198,6 +311,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.CreateProjectTest" hash-for-method="targetLanguage">targetLanguage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation_Test_Suite" title="com.testcase.TranslatorTest" hash-for-method="translatorDoLogin">translatorDoLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -222,6 +340,277 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Automation_Test_Suite" class="panel Automation_Test_Suite">
+          <div class="suite-Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testcase.ReviewerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="automatedTranslation">
+                  </a> <!-- automatedTranslation -->
+                  <span class="method-name">automatedTranslation</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;col-md-7 right-controls text-right p-t-0&apos;]/button[2]&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.34.522913 (36222509aa6e819815938cbf2709b4849735537c),platform=Linux 4.4.0-119-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;fourtek-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-119-generic&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522913 (36222509aa6e81..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 4155407a77a755788d0d37236d078ce3
+*** Element info: {Using=xpath, value=//div[@class=&apos;col-md-7 right-controls text-right p-t-0&apos;]/button[2]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:108)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:192)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.getText(Unknown Source)
+	at com.pages.product.Reviewer.validAutomatedUpDown(Reviewer.java:133)
+	at com.testcase.ReviewerTest.automatedTranslation(ReviewerTest.java:33)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doClickOnComplete">
+                  </a> <!-- doClickOnComplete -->
+                  <span class="method-name">doClickOnComplete</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at org.openqa.selenium.support.events.EventFiringWebDriver.extractInterfaces(EventFiringWebDriver.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.access$500(EventFiringWebDriver.java:69)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.&lt;init&gt;(EventFiringWebDriver.java:368)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.&lt;init&gt;(EventFiringWebDriver.java:360)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.createWebElement(EventFiringWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:301)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:284)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.main.product.Base_Test.waitForElement(Base_Test.java:132)
+	at com.pages.product.Reviewer.completeReviewer(Reviewer.java:104)
+	at com.testcase.ReviewerTest.doClickOnComplete(ReviewerTest.java:45)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doSelectReviewerProject">
+                  </a> <!-- doSelectReviewerProject -->
+                  <span class="method-name">doSelectReviewerProject</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;http://staging.devnagri.com/projects/a91743d8-43b9-11e8-a271-6e26eec2eced/translate/M93Y3LP&quot;&gt;...&lt;/a&gt; is not clickable at point (1127, 614). Other element would receive the click: &lt;select class=&quot;phpdebugbar-datasets-switcher&quot; style=&quot;display: inline-block;&quot;&gt;...&lt;/select&gt;
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.34.522913 (36222509aa6e819815938cbf2709b4849735537c),platform=Linux 4.4.0-119-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;fourtek-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-119-generic&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522913 (36222509aa6e81..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 4155407a77a755788d0d37236d078ce3
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:375)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:388)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.pages.product.Reviewer.assignProject(Reviewer.java:77)
+	at com.testcase.ReviewerTest.doSelectReviewerProject(ReviewerTest.java:25)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doTranslatorLogout">
+                  </a> <!-- doTranslatorLogout -->
+                  <span class="method-name">doTranslatorLogout</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.34.522913 (36222509aa6e819815938cbf2709b4849735537c),platform=Linux 4.4.0-119-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;fourtek-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-119-generic&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522913 (36222509aa6e81..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 4155407a77a755788d0d37236d078ce3
+*** Element info: {Using=xpath, value=//ul[@class=&apos;navbar-nav my-lg-0&apos;]/child::li[4]/a[1]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:108)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:192)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.pages.product.Reviewer.reviewerLogout(Reviewer.java:116)
+	at com.testcase.ReviewerTest.doTranslatorLogout(ReviewerTest.java:57)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="reviewerDoLogin">
+                  </a> <!-- reviewerDoLogin -->
+                  <span class="method-name">reviewerDoLogin</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//form[@id=&apos;loginform&apos;]/div[1]/div[1]/input[1]&quot;}
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.34.522913 (36222509aa6e819815938cbf2709b4849735537c),platform=Linux 4.4.0-119-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;fourtek-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-119-generic&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522913 (36222509aa6e81..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 4155407a77a755788d0d37236d078ce3
+*** Element info: {Using=xpath, value=//form[@id=&apos;loginform&apos;]/div[1]/div[1]/input[1]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:108)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:192)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at com.pages.product.Reviewer.login(Reviewer.java:68)
+	at com.testcase.ReviewerTest.reviewerDoLogin(ReviewerTest.java:17)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Suite-class-failed -->
+          <div class="suite-Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testcase.ManagerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assignProjectToTranslator">
+                  </a> <!-- assignProjectToTranslator -->
+                  <span class="method-name">assignProjectToTranslator</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Successfully assigned!] but found [×
+Successfully assigned!]
+	at com.testcase.ManagerTest.assignProjectToTranslator(ManagerTest.java:47)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Suite-class-failed -->
+          <div class="suite-Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testcase.TranslatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doTranslatorLogout">
+                  </a> <!-- doTranslatorLogout -->
+                  <span class="method-name">doTranslatorLogout</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; class=&quot;header-link dropdown-toggle&quot;&gt;...&lt;/a&gt; is not clickable at point (1254, 27). Other element would receive the click: &lt;div class=&quot;preloader&quot; style=&quot;opacity: 6.16838e-05;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.34.522913 (36222509aa6e819815938cbf2709b4849735537c),platform=Linux 4.4.0-119-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;fourtek-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-119-generic&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522913 (36222509aa6e81..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 4155407a77a755788d0d37236d078ce3
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:375)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:388)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.pages.product.Translator.translatorLogout(Translator.java:144)
+	at com.testcase.TranslatorTest.doTranslatorLogout(TranslatorTest.java:56)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Suite-class-failed -->
+          <div class="suite-Automation_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.testcase.ReviewerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doClickOnLogo">
+                  </a> <!-- doClickOnLogo -->
+                  <span class="method-name">doClickOnLogo</span>
+                  <div class="stack-trace">java.lang.Throwable: Method ReviewerTest.doClickOnLogo()[pri:6, instance:com.testcase.ReviewerTest@6d7b4f4c] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Suite-class-skipped -->
           <div class="suite-Automation_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -304,6 +693,21 @@
           <div class="suite-Automation_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.testcase.ReviewerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doAcceptWord">
+                  </a> <!-- doAcceptWord -->
+                  <span class="method-name">doAcceptWord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Suite-class-passed -->
+          <div class="suite-Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.testcase.FileUploadTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -348,6 +752,99 @@
                   <a name="selectTheBestPlan">
                   </a> <!-- selectTheBestPlan -->
                   <span class="method-name">selectTheBestPlan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Suite-class-passed -->
+          <div class="suite-Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcase.ManagerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doManagerLogout">
+                  </a> <!-- doManagerLogout -->
+                  <span class="method-name">doManagerLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doMangerLogin">
+                  </a> <!-- doMangerLogin -->
+                  <span class="method-name">doMangerLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectLanguageTranslator">
+                  </a> <!-- selectLanguageTranslator -->
+                  <span class="method-name">selectLanguageTranslator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectOrder">
+                  </a> <!-- selectOrder -->
+                  <span class="method-name">selectOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectTheCreatedProject">
+                  </a> <!-- selectTheCreatedProject -->
+                  <span class="method-name">selectTheCreatedProject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Test_Suite-class-passed -->
+          <div class="suite-Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcase.TranslatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="automatedTranslation">
+                  </a> <!-- automatedTranslation -->
+                  <span class="method-name">automatedTranslation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doClickOnLogo">
+                  </a> <!-- doClickOnLogo -->
+                  <span class="method-name">doClickOnLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doSelectTranslatorProject">
+                  </a> <!-- doSelectTranslatorProject -->
+                  <span class="method-name">doSelectTranslatorProject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="docompleteTranslation">
+                  </a> <!-- docompleteTranslation -->
+                  <span class="method-name">docompleteTranslation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doselectWordsAndEnterText">
+                  </a> <!-- doselectWordsAndEnterText -->
+                  <span class="method-name">doselectWordsAndEnterText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="translatorDoLogin">
+                  </a> <!-- translatorDoLogin -->
+                  <span class="method-name">translatorDoLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -454,6 +951,21 @@
       &lt;class name=&quot;com.testcase.MakeOrderTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Make An Order Testcase --&gt;
+  &lt;test name=&quot;Manager&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcase.ManagerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Manager --&gt;
+  &lt;test name=&quot;Translator&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcase.TranslatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Translator --&gt;
+  &lt;test name=&quot;Reviewer&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcase.ReviewerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Reviewer --&gt;
 &lt;/suite&gt; &lt;!-- Automation Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -478,6 +990,15 @@
               </li>
               <li>
                 <span class="test-name">Make An Order Testcase (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Manager (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Translator (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Reviewer (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -539,100 +1060,180 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(22);
+data.addRows(42);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'doTheOrder')
-data.setCell(0, 2, 'com.testcase.MakeOrderTest')
-data.setCell(0, 3, 30273);
+data.setCell(0, 1, 'doselectWordsAndEnterText')
+data.setCell(0, 2, 'com.testcase.TranslatorTest')
+data.setCell(0, 3, 30344);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'openBrowser')
-data.setCell(1, 2, 'com.testcase.LoginPageTest')
-data.setCell(1, 3, 16428);
+data.setCell(1, 1, 'doTheOrder')
+data.setCell(1, 2, 'com.testcase.MakeOrderTest')
+data.setCell(1, 3, 30204);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'enterFileLocation')
-data.setCell(2, 2, 'com.testcase.FileUploadTest')
-data.setCell(2, 3, 12506);
+data.setCell(2, 1, 'automatedTranslation')
+data.setCell(2, 2, 'com.testcase.ReviewerTest')
+data.setCell(2, 3, 23115);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'onlySelectTargetLanguage')
-data.setCell(3, 2, 'com.testcase.CreateProjectTest')
-data.setCell(3, 3, 10082);
+data.setCell(3, 1, 'openBrowser')
+data.setCell(3, 2, 'com.testcase.LoginPageTest')
+data.setCell(3, 3, 19023);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'selectFileFormat')
-data.setCell(4, 2, 'com.testcase.FileUploadTest')
-data.setCell(4, 3, 8719);
+data.setCell(4, 1, 'onlySelectTargetLanguage')
+data.setCell(4, 2, 'com.testcase.CreateProjectTest')
+data.setCell(4, 3, 10192);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'doLogin')
-data.setCell(5, 2, 'com.testcase.LoginPageTest')
-data.setCell(5, 3, 7484);
+data.setCell(5, 1, 'reviewerDoLogin')
+data.setCell(5, 2, 'com.testcase.ReviewerTest')
+data.setCell(5, 3, 10099);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'doClickOnLetsStartButton')
-data.setCell(6, 2, 'com.testcase.CreateProjectTest')
-data.setCell(6, 3, 7439);
+data.setCell(6, 1, 'doAcceptWord')
+data.setCell(6, 2, 'com.testcase.ReviewerTest')
+data.setCell(6, 3, 10023);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'targetLanguage')
-data.setCell(7, 2, 'com.testcase.CreateProjectTest')
-data.setCell(7, 3, 7401);
+data.setCell(7, 1, 'translatorDoLogin')
+data.setCell(7, 2, 'com.testcase.TranslatorTest')
+data.setCell(7, 3, 9002);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'checkCaseSensitive')
-data.setCell(8, 2, 'com.testcase.LoginPageTest')
-data.setCell(8, 3, 6666);
+data.setCell(8, 1, 'selectFileFormat')
+data.setCell(8, 2, 'com.testcase.FileUploadTest')
+data.setCell(8, 3, 8673);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'choosePlanForTranslation')
-data.setCell(9, 2, 'com.testcase.ChooseTranslationPlanTest')
-data.setCell(9, 3, 6115);
+data.setCell(9, 1, 'enterFileLocation')
+data.setCell(9, 2, 'com.testcase.FileUploadTest')
+data.setCell(9, 3, 8405);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'onlyEnterProjectName')
-data.setCell(10, 2, 'com.testcase.CreateProjectTest')
-data.setCell(10, 3, 5006);
+data.setCell(10, 1, 'doClickOnComplete')
+data.setCell(10, 2, 'com.testcase.ReviewerTest')
+data.setCell(10, 3, 7815);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'clientLogout')
-data.setCell(11, 2, 'com.testcase.MakeOrderTest')
-data.setCell(11, 3, 3526);
+data.setCell(11, 1, 'targetLanguage')
+data.setCell(11, 2, 'com.testcase.CreateProjectTest')
+data.setCell(11, 3, 7392);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'withOutSelectAllOptions')
-data.setCell(12, 2, 'com.testcase.CreateProjectTest')
-data.setCell(12, 3, 3400);
+data.setCell(12, 1, 'assignProjectToTranslator')
+data.setCell(12, 2, 'com.testcase.ManagerTest')
+data.setCell(12, 3, 7284);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'startProject')
+data.setCell(13, 1, 'doClickOnLetsStartButton')
 data.setCell(13, 2, 'com.testcase.CreateProjectTest')
-data.setCell(13, 3, 3388);
+data.setCell(13, 3, 7260);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'checkUnicodeTransformationFormat')
-data.setCell(14, 2, 'com.testcase.LoginPageTest')
-data.setCell(14, 3, 3307);
+data.setCell(14, 1, 'doClickOnLogo')
+data.setCell(14, 2, 'com.testcase.TranslatorTest')
+data.setCell(14, 3, 6363);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'invalidPwdEmail')
-data.setCell(15, 2, 'com.testcase.LoginPageTest')
-data.setCell(15, 3, 3249);
+data.setCell(15, 1, 'choosePlanForTranslation')
+data.setCell(15, 2, 'com.testcase.ChooseTranslationPlanTest')
+data.setCell(15, 3, 5157);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'invalidEmail')
-data.setCell(16, 2, 'com.testcase.LoginPageTest')
-data.setCell(16, 3, 2476);
+data.setCell(16, 1, 'onlyEnterProjectName')
+data.setCell(16, 2, 'com.testcase.CreateProjectTest')
+data.setCell(16, 3, 5003);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'invalidPassword')
+data.setCell(17, 1, 'doLogin')
 data.setCell(17, 2, 'com.testcase.LoginPageTest')
-data.setCell(17, 3, 2358);
+data.setCell(17, 3, 4841);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'selectTheBestPlan')
-data.setCell(18, 2, 'com.testcase.ChooseTranslationPlanTest')
-data.setCell(18, 3, 2133);
+data.setCell(18, 1, 'clientLogout')
+data.setCell(18, 2, 'com.testcase.MakeOrderTest')
+data.setCell(18, 3, 3907);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'clickOnAddNewFile')
-data.setCell(19, 2, 'com.testcase.FileUploadTest')
-data.setCell(19, 3, 1764);
+data.setCell(19, 1, 'checkCaseSensitive')
+data.setCell(19, 2, 'com.testcase.LoginPageTest')
+data.setCell(19, 3, 3639);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'projectType')
-data.setCell(20, 2, 'com.testcase.CreateProjectTest')
-data.setCell(20, 3, 1323);
+data.setCell(20, 1, 'doManagerLogout')
+data.setCell(20, 2, 'com.testcase.ManagerTest')
+data.setCell(20, 3, 3509);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'typeProjectName')
-data.setCell(21, 2, 'com.testcase.CreateProjectTest')
-data.setCell(21, 3, 287);
+data.setCell(21, 1, 'doMangerLogin')
+data.setCell(21, 2, 'com.testcase.ManagerTest')
+data.setCell(21, 3, 3405);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'automatedTranslation')
+data.setCell(22, 2, 'com.testcase.TranslatorTest')
+data.setCell(22, 3, 3316);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'docompleteTranslation')
+data.setCell(23, 2, 'com.testcase.TranslatorTest')
+data.setCell(23, 3, 3295);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'withOutSelectAllOptions')
+data.setCell(24, 2, 'com.testcase.CreateProjectTest')
+data.setCell(24, 3, 2826);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'startProject')
+data.setCell(25, 2, 'com.testcase.CreateProjectTest')
+data.setCell(25, 3, 2515);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'doSelectTranslatorProject')
+data.setCell(26, 2, 'com.testcase.TranslatorTest')
+data.setCell(26, 3, 2469);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'selectTheCreatedProject')
+data.setCell(27, 2, 'com.testcase.ManagerTest')
+data.setCell(27, 3, 2227);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'invalidEmail')
+data.setCell(28, 2, 'com.testcase.LoginPageTest')
+data.setCell(28, 3, 2114);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'selectOrder')
+data.setCell(29, 2, 'com.testcase.ManagerTest')
+data.setCell(29, 3, 2098);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'invalidPassword')
+data.setCell(30, 2, 'com.testcase.LoginPageTest')
+data.setCell(30, 3, 2044);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'invalidPwdEmail')
+data.setCell(31, 2, 'com.testcase.LoginPageTest')
+data.setCell(31, 3, 2009);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'selectLanguageTranslator')
+data.setCell(32, 2, 'com.testcase.ManagerTest')
+data.setCell(32, 3, 1916);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'selectTheBestPlan')
+data.setCell(33, 2, 'com.testcase.ChooseTranslationPlanTest')
+data.setCell(33, 3, 1865);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'checkUnicodeTransformationFormat')
+data.setCell(34, 2, 'com.testcase.LoginPageTest')
+data.setCell(34, 3, 1845);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'clickOnAddNewFile')
+data.setCell(35, 2, 'com.testcase.FileUploadTest')
+data.setCell(35, 3, 1562);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'projectType')
+data.setCell(36, 2, 'com.testcase.CreateProjectTest')
+data.setCell(36, 3, 1146);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'typeProjectName')
+data.setCell(37, 2, 'com.testcase.CreateProjectTest')
+data.setCell(37, 3, 342);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'doSelectReviewerProject')
+data.setCell(38, 2, 'com.testcase.ReviewerTest')
+data.setCell(38, 3, 184);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'doTranslatorLogout')
+data.setCell(39, 2, 'com.testcase.TranslatorTest')
+data.setCell(39, 3, 178);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'doTranslatorLogout')
+data.setCell(40, 2, 'com.testcase.ReviewerTest')
+data.setCell(40, 3, 93);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'doClickOnLogo')
+data.setCell(41, 2, 'com.testcase.ReviewerTest')
+data.setCell(41, 3, 0);
 window.suiteTableData['Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-Automation_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Automation_Test_Suite">
               </div> <!-- times-div-Automation_Test_Suite -->
             </div> <!-- times-div -->
@@ -686,100 +1287,208 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">invalidEmail</span>
-                <span class="method-start">16433 ms</span>
+                <span class="method-start">19028 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">invalidPassword</span>
-                <span class="method-start">18912 ms</span>
+                <span class="method-start">21145 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">invalidPwdEmail</span>
-                <span class="method-start">21272 ms</span>
+                <span class="method-start">23194 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkCaseSensitive</span>
-                <span class="method-start">24524 ms</span>
+                <span class="method-start">25206 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkUnicodeTransformationFormat</span>
-                <span class="method-start">31201 ms</span>
+                <span class="method-start">28847 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">doLogin</span>
-                <span class="method-start">34517 ms</span>
+                <span class="method-start">30694 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcase.CreateProjectTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">startProject</span>
-                <span class="method-start">42067 ms</span>
+                <span class="method-start">35570 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">withOutSelectAllOptions</span>
-                <span class="method-start">45460 ms</span>
+                <span class="method-start">38087 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">onlyEnterProjectName</span>
-                <span class="method-start">48861 ms</span>
+                <span class="method-start">40915 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">onlySelectTargetLanguage</span>
-                <span class="method-start">53868 ms</span>
+                <span class="method-start">45921 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">typeProjectName</span>
-                <span class="method-start">63954 ms</span>
+                <span class="method-start">56115 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">projectType</span>
-                <span class="method-start">64243 ms</span>
+                <span class="method-start">56459 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">targetLanguage</span>
-                <span class="method-start">65569 ms</span>
+                <span class="method-start">57606 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">doClickOnLetsStartButton</span>
-                <span class="method-start">72973 ms</span>
+                <span class="method-start">65000 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcase.FileUploadTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">clickOnAddNewFile</span>
-                <span class="method-start">80420 ms</span>
+                <span class="method-start">72289 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">enterFileLocation</span>
-                <span class="method-start">82187 ms</span>
+                <span class="method-start">73854 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectFileFormat</span>
-                <span class="method-start">94695 ms</span>
+                <span class="method-start">82261 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcase.ChooseTranslationPlanTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">choosePlanForTranslation</span>
-                <span class="method-start">103421 ms</span>
+                <span class="method-start">90940 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectTheBestPlan</span>
-                <span class="method-start">109537 ms</span>
+                <span class="method-start">96098 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.testcase.MakeOrderTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">doTheOrder</span>
-                <span class="method-start">111679 ms</span>
+                <span class="method-start">97972 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clientLogout</span>
-                <span class="method-start">141953 ms</span>
+                <span class="method-start">128177 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcase.ManagerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doMangerLogin</span>
+                <span class="method-start">132095 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectTheCreatedProject</span>
+                <span class="method-start">135504 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectOrder</span>
+                <span class="method-start">137732 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectLanguageTranslator</span>
+                <span class="method-start">139833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">assignProjectToTranslator</span>
+                <span class="method-start">141751 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doManagerLogout</span>
+                <span class="method-start">149040 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcase.TranslatorTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">translatorDoLogin</span>
+                <span class="method-start">152573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doSelectTranslatorProject</span>
+                <span class="method-start">161577 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">automatedTranslation</span>
+                <span class="method-start">164048 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doselectWordsAndEnterText</span>
+                <span class="method-start">167365 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">docompleteTranslation</span>
+                <span class="method-start">197750 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doClickOnLogo</span>
+                <span class="method-start">201048 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">doTranslatorLogout</span>
+                <span class="method-start">207412 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcase.ReviewerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">reviewerDoLogin</span>
+                <span class="method-start">207606 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">doSelectReviewerProject</span>
+                <span class="method-start">217708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">automatedTranslation</span>
+                <span class="method-start">217894 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doAcceptWord</span>
+                <span class="method-start">241012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">doClickOnComplete</span>
+                <span class="method-start">251039 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">doTranslatorLogout</span>
+                <span class="method-start">258899 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcase.ManagerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">managerTranslationPage</span>
+                <span class="method-start">259088 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

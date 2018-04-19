@@ -32,6 +32,9 @@ public class Manager extends Base_Test{
 	@FindBy(xpath = "//*[@id='files']/div/table/tbody/tr/td[5]/div/div/a[2]") // To Select the translator button												
 	WebElement btn_translatorProject;
 	
+	@FindBy(xpath = "//*[@id='files']/div/table/tbody/tr/td[5]/div/div/a[2]") // To Select the client translator button												
+	WebElement btn_clientTranslatorProject;
+	
 	@FindBy(xpath = "//div[@class='col-md-5 right-controls p-t-0']/button[1]")  // To select the accept button.													
 	WebElement btn_accpet;
 	
@@ -87,11 +90,6 @@ public class Manager extends Base_Test{
 		javaScriptClick(selectProject);
 	}
 	
-	public void selectCreatedProjectAfterSuite() throws Exception
-	{
-		javaScriptClick(selectProject1);
-	}
-	
 	public void assignLanguageTranslator()
 	{
 		btn_assignTranslatorToHindi.click();
@@ -117,6 +115,11 @@ public class Manager extends Base_Test{
 	{
 		btn_translatorProject.click();
 	}
+	
+	public void clientTranslator()
+	{
+		btn_clientTranslatorProject.click();
+	}
 	public void automatedTranslationUpDown() throws Exception
 	{
 		Thread.sleep(3000);
@@ -126,7 +129,6 @@ public class Manager extends Base_Test{
 	{
 	waitForElement(btn_complete);
 	javaScriptClick(btn_complete);
-	Thread.sleep(2000);
 	}
 
 	public void selectWords() throws Exception
@@ -142,9 +144,8 @@ public class Manager extends Base_Test{
 		System.out.println(i);
 		Thread.sleep(3000);	
 		javaScriptClick(btn_accpet);
-
-	
 	}
+	
 	}
 	
 	public String assignProjectToTranslator()
