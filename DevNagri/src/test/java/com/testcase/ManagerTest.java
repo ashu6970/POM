@@ -63,8 +63,14 @@ public class ManagerTest extends Base_Test {
 		manager.automatedTranslationUpDown();
 		//manager.selectWords();
 		manager.completeTranslation();
-		System.out.println("Abc");
-		
+		System.out.println("Abc");		
+	}
+	
+	@AfterSuite(dependsOnMethods = { "docompleteTranslation" })
+	public void Ab()
+	{
 		
 	}
+	
+	
 }

@@ -4,14 +4,31 @@
   <listeners>
     <listener class-name="com.ExtentReport.ExtentReporterNG"/>
   </listeners>
-  <test name="Manager(failed)">
+  <test name="File Upload Testcase(failed)">
     <classes>
-      <class name="com.testcase.ManagerTest">
+      <class name="com.testcase.FileUploadTest">
         <methods>
-          <include name="assignProjectToTranslator"/>
-          <include name="managerTranslationPage"/>
+          <include name="enterFileLocation"/>
         </methods>
-      </class> <!-- com.testcase.ManagerTest -->
+      </class> <!-- com.testcase.FileUploadTest -->
     </classes>
-  </test> <!-- Manager(failed) -->
+  </test> <!-- File Upload Testcase(failed) -->
+  <test name="Choose Translation Plan(failed)">
+    <classes>
+      <class name="com.testcase.ChooseTranslationPlanTest">
+        <methods>
+          <include name="choosePlanForTranslation"/>
+        </methods>
+      </class> <!-- com.testcase.ChooseTranslationPlanTest -->
+    </classes>
+  </test> <!-- Choose Translation Plan(failed) -->
+  <test name="Make An Order Testcase(failed)">
+    <classes>
+      <class name="com.testcase.MakeOrderTest">
+        <methods>
+          <include name="doTheOrder"/>
+        </methods>
+      </class> <!-- com.testcase.MakeOrderTest -->
+    </classes>
+  </test> <!-- Make An Order Testcase(failed) -->
 </suite> <!-- Failed suite [Automation Test Suite] -->

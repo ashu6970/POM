@@ -51,4 +51,5 @@
 <fullyQualifiedTypeName name="com.google.errorprone.annotations.Var"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
 <fullyQualifiedTypeName name="org.testng.Assert"/>
+<fullyQualifiedTypeName name="org.testng.annotations.AfterSuite"/>
 </qualifiedTypeNameHistroy>
