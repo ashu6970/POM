@@ -74,6 +74,7 @@ public class ManagerTest extends Base_Test {
 	{
 		manager.login("test.client@devnagri.com","secret");
 		manager.selectCreatedProject();
+		Thread.sleep(2000);
 		manager.createdOrder();
 		manager.clientTranslator();
 		manager.completeTranslation();

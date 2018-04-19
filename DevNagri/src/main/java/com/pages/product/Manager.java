@@ -32,7 +32,7 @@ public class Manager extends Base_Test{
 	@FindBy(xpath = "//*[@id='files']/div/table/tbody/tr/td[5]/div/div/a[2]") // To Select the translator button												
 	WebElement btn_translatorProject;
 	
-	@FindBy(xpath = "//*[@id='files']/div/table/tbody/tr/td[5]/div/div/a[2]") // To Select the client translator button												
+	@FindBy(xpath = "//*[@id='files']/div/table/tbody/tr/td[5]/div/div/a[1]") // To Select the client translator button												
 	WebElement btn_clientTranslatorProject;
 	
 	@FindBy(xpath = "//div[@class='col-md-5 right-controls p-t-0']/button[1]")  // To select the accept button.													

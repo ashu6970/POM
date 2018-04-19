@@ -48,7 +48,7 @@ public class Reviewer extends Base_Test{
 	@FindBy(xpath = "//a[@href='http://staging.devnagri.com']")  // To select the devnagri logo.													
 	WebElement devlogo;
 	
-	@FindBy(xpath = "//ul[@id='sidebarnav']/li[2]/a/span']")  // To select Translator Application												
+	@FindBy(xpath = "//ul[@id='sidebarnav']/li[2]/a/span")  // To select Translator Application												
 	WebElement validationReviewerLogin;
 	
 	@FindBy(xpath="//div[@class='row control-bar trans m-l-0 m-r--2']/div/h4")  // To get the project description text on translation page.
@@ -72,9 +72,10 @@ public class Reviewer extends Base_Test{
 		btn_login.click();	
 	}
 	
-	public void assignProject() 
+	public void assignProject() throws Exception 
 	{
-		selectReviewerProject.click();
+		Thread.sleep(2000);
+		javaScriptClick(selectReviewerProject);
 	}
 	
 	
@@ -105,9 +106,11 @@ public class Reviewer extends Base_Test{
 	javaScriptClick(btn_complete);
 	}
 	
-	public void clickDeva()
+	public void clickDeva() throws InterruptedException
 	{
 		devlogo.click();
+		Thread.sleep(2000);
+		
 	}
 	
 	public void reviewerLogout() throws InterruptedException

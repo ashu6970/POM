@@ -3,10 +3,11 @@ package com.testcase;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.main.product.Base_Test;
 import com.pages.product.Reviewer;
 
 
-public class ReviewerTest {
+public class ReviewerTest  extends Base_Test {
 	
 	public Reviewer reviewer;
 	
@@ -20,8 +21,9 @@ public class ReviewerTest {
 	
 	@Test(priority=2)
 
-	public void  doSelectReviewerProject()
+	public void  doSelectReviewerProject() throws Exception
 	{
+		pageScrolldown();
 		reviewer.assignProject();
 		Assert.assertEquals(reviewer.validAssignProject(), "Project Description");
 	}
@@ -46,7 +48,7 @@ public class ReviewerTest {
 	}
 	
 	@Test(priority=6,dependsOnMethods={"doClickOnComplete"})
-	public void doClickOnLogo()
+	public void doClickOnLogo() throws InterruptedException
 	{
 		reviewer.clickDeva();
 	}

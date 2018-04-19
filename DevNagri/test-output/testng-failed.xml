@@ -15,26 +15,11 @@
       </class> <!-- com.testcase.ManagerTest -->
     </classes>
   </test> <!-- Manager(failed) -->
-  <test name="Translator(failed)">
-    <classes>
-      <class name="com.testcase.TranslatorTest">
-        <methods>
-          <include name="doTranslatorLogout"/>
-        </methods>
-      </class> <!-- com.testcase.TranslatorTest -->
-    </classes>
-  </test> <!-- Translator(failed) -->
   <test name="Reviewer(failed)">
     <classes>
       <class name="com.testcase.ReviewerTest">
         <methods>
-          <include name="reviewerDoLogin"/>
-          <include name="doSelectReviewerProject"/>
-          <include name="doAcceptWord"/>
-          <include name="automatedTranslation"/>
-          <include name="doClickOnComplete"/>
           <include name="doTranslatorLogout"/>
-          <include name="doClickOnLogo"/>
         </methods>
       </class> <!-- com.testcase.ReviewerTest -->
     </classes>
