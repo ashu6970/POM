@@ -15,13 +15,4 @@
       </class> <!-- com.testcase.ManagerTest -->
     </classes>
   </test> <!-- Manager(failed) -->
-  <test name="Reviewer(failed)">
-    <classes>
-      <class name="com.testcase.ReviewerTest">
-        <methods>
-          <include name="doTranslatorLogout"/>
-        </methods>
-      </class> <!-- com.testcase.ReviewerTest -->
-    </classes>
-  </test> <!-- Reviewer(failed) -->
 </suite> <!-- Failed suite [Automation Test Suite] -->

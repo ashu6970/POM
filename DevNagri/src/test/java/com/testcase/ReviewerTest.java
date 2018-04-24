@@ -20,7 +20,6 @@ public class ReviewerTest  extends Base_Test {
 	}
 	
 	@Test(priority=2)
-
 	public void  doSelectReviewerProject() throws Exception
 	{
 		pageScrolldown();

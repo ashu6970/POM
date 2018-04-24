@@ -30,6 +30,7 @@ public class ManagerTest extends Base_Test {
 	public void selectOrder() throws Exception
 	{
 		manager.createdOrder();	
+		Thread.sleep(2000);
 		manager.assign();
 	}
 	
@@ -44,7 +45,6 @@ public class ManagerTest extends Base_Test {
 	{
 		Thread.sleep(3000);
 		manager.assignToTranslator();
-		Assert.assertEquals(manager.assignProjectToTranslator(),"Successfully assigned!");
 		System.out.println(manager.assignProjectToTranslator());
 	}
 	@Test(priority=6)
@@ -79,12 +79,7 @@ public class ManagerTest extends Base_Test {
 		manager.clientTranslator();
 		manager.completeTranslation();
 		Thread.sleep(2000);
-		manager.managerLogout();
-				
-		
-
-		
-		
+		manager.clientLogout();	
 		
 	}
 	

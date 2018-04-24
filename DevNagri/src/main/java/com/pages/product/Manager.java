@@ -61,6 +61,9 @@ public class Manager extends Base_Test{
 
 	@FindBy(xpath="//ul[@class='navbar-nav my-lg-0']/child::li[4]/div[1]/ul[1]/li[5]/a[1]")  //  Select User logout button
 	WebElement btn_logout;
+
+	@FindBy(xpath="//ul[@class='navbar-nav my-lg-0']/child::li[4]/div[1]/ul[1]/li[6]/a[1]")  //  Select User logout button
+	WebElement btn_clientlogout;
 	
 	@FindBy(xpath="//ul[@class='navbar-nav my-lg-0']/child::li[4]/a[1]") // Select the user button
 	WebElement btn_user;
@@ -153,13 +156,22 @@ public class Manager extends Base_Test{
 	return validationAssignProject.getText();
 	}
 	
-      public void managerLogout() throws InterruptedException
 	
+      public void managerLogout() throws InterruptedException
 	  {
+    	  Thread.sleep(2000);
 		 btn_user.click();
 		 Thread.sleep(2000);
 		 btn_logout.click();
 	  }
+      
+      public void clientLogout() throws InterruptedException
+      {
+    	  Thread.sleep(2000);
+ 		 btn_user.click();
+ 		 Thread.sleep(2000);
+    	  btn_clientlogout.click();
+      }
       
       
 }
