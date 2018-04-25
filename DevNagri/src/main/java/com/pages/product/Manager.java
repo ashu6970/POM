@@ -74,6 +74,10 @@ public class Manager extends Base_Test{
 	@FindBy(xpath = "//div[@class='col-md-1 drops form-buttons p-t-0 no-border']/button")  // To Enter the text in the text field.													
 	WebElement btn_complete;
 	
+	@FindBy(xpath = "//ul[@id='sidebarnav']/li[2]/a/span")  // To valid the manager login after completion of translation											
+	WebElement managerLoginValid;
+	
+	
 	public Manager() {
 
 		PageFactory.initElements(driver, this);
@@ -173,5 +177,9 @@ public class Manager extends Base_Test{
     	  btn_clientlogout.click();
       }
       
+      public String managerLoginValidation()
+      {
+    	  return managerLoginValid.getText();
+      }
       
 }

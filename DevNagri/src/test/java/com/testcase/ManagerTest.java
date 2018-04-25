@@ -1,4 +1,5 @@
 package com.testcase;
+import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.Test;
 
@@ -12,10 +13,8 @@ public class ManagerTest extends Base_Test {
 	public void doMangerLogin()
 	{								
 		manager=new Manager();
-		//driver.findElement(By.xpath("//form[@id='loginform']/div[1]/div[1]/input[1]")).sendKeys("manager@fourtek.com");
-		//driver.findElement(By.xpath("//form[@id='loginform']/div[2]/div[1]/input[1]")).sendKeys("secret");
 		manager.login("test.manager@devnagri.com","secret");
-		//driver.findElement(By.xpath("//form[@id='loginform']/div[4]/div[1]/button[1]")).click();
+		Assert.assertEquals(manager.managerLoginValidation(),"Manage Users");
 	}
 	@Test(priority=2)
 	public void selectTheCreatedProject() throws Exception
@@ -63,8 +62,7 @@ public class ManagerTest extends Base_Test {
 		//manager.selectWords();
 		manager.completeTranslation();
 		Thread.sleep(2000);
-		manager.managerLogout();
-				
+		manager.managerLogout();			
 	}
 	
 	@AfterSuite(dependsOnMethods = { "managerTranslationPage" })
@@ -77,8 +75,7 @@ public class ManagerTest extends Base_Test {
 		manager.clientTranslator();
 		manager.completeTranslation();
 		Thread.sleep(2000);
-		manager.clientLogout();	
-		
+		manager.clientLogout();		
 	}
 	
 	
