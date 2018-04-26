@@ -188,6 +188,9 @@ public class CreateProject extends Base_Test {
 	 * }
 	 */
 	
+	/**
+	 * This method used for the validation.
+	 */
 	public String forStartNewProject()
 	{
 	return validStartProject.getText();

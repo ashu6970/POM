@@ -69,6 +69,10 @@ public class FileUpload extends Base_Test{
 		}
 	}
 	
+	/**
+	 * Method used for dropdown.
+	 */
+			
 	public void dropNewFile() throws InterruptedException
 	{
 		
@@ -152,6 +156,10 @@ public class FileUpload extends Base_Test{
 	    	
 	    }
 	 
+	 /**
+	  * This method used for validation
+	  * @return Text
+	  */
 	 public String validateErrorParsing()
 	 {
 		 return errorparsing.getText();

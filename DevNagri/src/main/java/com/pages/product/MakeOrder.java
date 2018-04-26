@@ -44,15 +44,23 @@ public class MakeOrder extends Base_Test{
 		 javaScriptClick(element1);	 
 	}
 	
+	/**
+	 * This method used for logout.
+	 * @throws InterruptedException
+	 */
 	public void clientlogout() throws InterruptedException
 	
 	{
-		waitForElement(btn_user);
+		 waitForElement(btn_user);
 		 btn_user.click();
 		 Thread.sleep(2000);
 		 btn_logout.click();
 	}
 	
+	/**
+	 * Method used for validation.
+	 * @return Text
+	 */
 	public String validationOrder()
 	{
 	return translationOrder.getText();

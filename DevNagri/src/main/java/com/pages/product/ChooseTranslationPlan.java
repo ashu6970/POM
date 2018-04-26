@@ -47,12 +47,20 @@ public class ChooseTranslationPlan extends Base_Test {
 	
 		 
 	 }
-	
+	/**
+	 * Perform the click on the dashboard button.
+	 */
 	public void dashBoard()
 	{
 		btn_Dashboard.click();
 	}
 	
+	/**
+	 * This is perform the click on the process now button
+     * @throws Exception
+     * @return Object of make an order page. 
+	 
+	 */
 	public MakeOrder process() throws Exception
 	{
 		javaScriptClick(btn_processNow);
@@ -62,6 +70,9 @@ public class ChooseTranslationPlan extends Base_Test {
 		return new MakeOrder();
 	}
 	
+	/**
+	 * Method used for validation
+	 */
 	public String forFileUpload()
 	 {
 		return validateForFileUpload.getText();

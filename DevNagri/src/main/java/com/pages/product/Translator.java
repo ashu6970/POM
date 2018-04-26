@@ -70,6 +70,11 @@ public class Translator extends Base_Test {
 		PageFactory.initElements(driver, this);
 	}
 	
+	/**
+	 * This method used for receive the email and password.
+	 * @param username
+	 * @param password
+	 */
 	public void login(String username,String password)
 	{
 		txtbn_username.clear();
@@ -79,22 +84,37 @@ public class Translator extends Base_Test {
 		btn_login.click();	
 	}
 	
+	/**
+	 * Used for select the assign project.
+	 * @throws Exception
+	 */
 	public void assignProject() throws Exception 
 	{
 	javaScriptClick(selectTranslatorProject);
 	}
 	
+	/**
+	 * This method used for click on automated button for UP and down.
+	 * @throws Exception
+	 */
 	public void automatedTranslationUpDown() throws Exception
 	{
 		Thread.sleep(3000);
 		javaScriptClick(btn_automatedTranslationuUpDown);
 	}
 	
+	/**
+	 * Used for click on translate button.
+	 */
 	public void clickOnTranslateButton()
 	{
 		btn_translate.click();
 	}
 	
+	/**
+	 * Method used for click on all the words and do trnaslated all the words.
+	 * @throws Throwable
+	 */
 	public void clickOnWord() throws Throwable
 	{
 		List<WebElement> selectAllWords = driver.findElements(By.xpath("//div[@class='sentence-list  default']"));
@@ -104,8 +124,6 @@ public class Translator extends Base_Test {
 		{
 			Thread.sleep(2000);
 			selectAllWords.get(i).click();
-			System.out.println(size);
-			System.out.println(i);
 			Thread.sleep(3000);	
 			textArea.sendKeys(generateRandomString(20));
 			Thread.sleep(2000);
@@ -125,7 +143,10 @@ public class Translator extends Base_Test {
 		}
 		
 	}
-	
+	/**
+	 * Method used for click on the complete button.
+	 * @throws Exception
+	 */
 	public void completeTranslation() throws Exception
 	{
 	waitForElement(btn_complete);
@@ -133,12 +154,20 @@ public class Translator extends Base_Test {
 	Thread.sleep(2000);
 	}
 	
+	/**
+	 * Used for click on devnagri logo.
+	 * @throws InterruptedException
+	 */
 	public void clickDeva() throws InterruptedException
 	{
 		devlogo.click();
 		Thread.sleep(3000);
 	}
 	
+	/**
+	 * This method used for reviewer logout.
+	 * @throws InterruptedException
+	 */
 	 public void translatorLogout() throws InterruptedException
 		
 	  {
@@ -147,6 +176,10 @@ public class Translator extends Base_Test {
 		 btn_logout.click();
 	  }
 	 
+	 /**
+	  * Used for validations.
+	  * @return
+	  */
 	 public String validTranslatorPage()
 	 {
 		 return validationTranslatorLoginPage.getText();

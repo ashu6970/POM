@@ -82,7 +82,7 @@ public class FileUploadTest extends Base_Test {
 	*/
 	
 	/**
-	 * This method used for enter the location of file.
+	 * This method used for enter the location of file using random object.
 	 * @throws InterruptedException 
 	 */
 	@Test(priority=4)

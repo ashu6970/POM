@@ -1,0 +1,210 @@
+package com.pages.product;
+
+import java.util.List;
+import java.util.Random;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.main.product.Base_Test;
+
+/**
+ * 
+ * @author Ashwani
+ *
+ */
+public class CreateProject extends Base_Test {
+
+	// div[@class='text-center']/child::a[1]
+
+	@FindBy(xpath = "//div[@id='container']//child::div[1]/div[1]/a[1]") // To the new project
+	WebElement btn_startNewProject;															
+
+	@FindBy(xpath = "//div[@class='col-md-12 no-padding']/input[1]") // Enter the Project name
+	WebElement txtbn_projectName;																			 
+	
+	@FindBy(xpath = "//*[@id='addProjectForm']/div[3]/div[3]/input[1]") // To select the platform
+	WebElement btn_platform;
+
+	@FindBy(xpath = "//*[@id=addProjectForm']/div[5]/div[1]/div/button") // To select the industry type
+	WebElement btn_website;																		 
+																																							
+	@FindBy(xpath = "//ul[@class='dropdown-menu inner']//child::a[1]/span[1]") // To select the Agriculture
+	WebElement btn_agriculture;																								// 
+																									
+	@FindBy(xpath = "//*[@id='addProjectForm']/div[7]/div[2]/div/div/ul/li[1]/a[1]") // To select the hindi language
+    WebElement btn_hindi;
+
+	@FindBy(xpath = "//div[@class='col-md-6 col-md-offset-3']/button[1]") // click on Let's  start 
+	WebElement btn_letsGetStart;																	
+	
+	@FindBy(xpath = "//a[contains(text(),'Add New File')]") // Validate Project is created														 
+	WebElement valid_createProject;
+
+	@FindAll(@FindBy(xpath = "//*[@id='addProjectForm']/div[5]/div[1]/div/button")) // Validate Project is created														 
+	List<WebElement> selectAllIndustryType;
+	
+	@FindBy(xpath = "//*[@id='main-wrapper']/div/div/div/div/h5") // Validate start new project														 
+	WebElement validStartProject;
+	
+	@FindBy(xpath = "//*[@id='main-wrapper']/div/div/div/div/div[1]/ul/li[1]") // Without Select any field														 
+	WebElement withoutSelectAnyOption;
+	
+	@FindBy(xpath = "//*[@id='main-wrapper']/div/div/div/div/div[1]/ul/li[1]") // Entered only project name.														 
+	WebElement validOnlyEnterProjectName;
+	
+	@FindBy(xpath = "//*[@id='main-wrapper']/div[2]/div/div/div/h5") //Created the project Sucussfully.														 
+	WebElement validProjectCreatedSucussfully;
+	
+
+/**
+ *  To initialize the PageFactory model
+ */
+	public CreateProject() {
+
+		PageFactory.initElements(driver, this);
+	}
+/**
+ * This Method perform click on start new project button
+ */
+	public void startNewProject() {
+		btn_startNewProject.click();
+	}
+
+	/**
+	 * Enter the text into text filed.`	
+	 * @param projectName receive from the Testcase class.
+	 */
+	public void enterProjectName(String projectName) {
+		txtbn_projectName.sendKeys(projectName);
+
+	}
+
+	/**
+	 * This method select the project type.
+	 */
+	public void selectPlateform() {
+		try {
+			Thread.sleep(1000);
+			WebElement element = driver
+					.findElement(By.xpath("//*[@id='addProjectForm']/div[3]/div[3]/input[1]"));
+			javaScriptClick(element);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * This method select the industry type.
+	 */
+	public void selectIndustry() {
+		
+		System.out.println(selectAllIndustryType.size());
+		//List<WebElement> options = driver.findElements(By.xpath("//form[@id='addProjectForm']/child::div[5]/div[1]/div[1]/div/ul"));
+	//	Random selecttype = new Random();
+		//int list= selecttype.nextInt(options.size());
+		//System.out.println(list);
+		//options.get(list).click();
+		
+	/*	try {
+			
+			
+			Thread.sleep(1000);
+			WebElement element = driver
+					.findElement(By.xpath("//*[@id='addProjectForm']/div[5]/div[1]/div/div/ul/li[2]/a"));
+			javaScriptClick(element);
+			btn_agriculture.click();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		*/
+
+	}
+
+	/**
+	 * This method select the target language.
+	 */
+	public void selectTargetLanguage() {
+		try {
+			Thread.sleep(1000);
+			WebElement element = driver
+					.findElement(By.xpath("//*[@id='addProjectForm']/div[7]/div[2]/div/button/span[1]"));
+			javaScriptClick(element);
+			Thread.sleep(3000);
+			
+			WebElement elements = driver
+					.findElement(By.xpath("//*[@id='addProjectForm']/div[7]/div[2]/div/div/ul/li[1]/a[1]"));
+			javaScriptClick(elements);
+
+			Thread.sleep(3000);
+			WebElement element1 = driver
+					.findElement(By.xpath("//*[@id='addProjectForm']/div[7]/div[2]/div/button/span[1]"));
+			javaScriptClick(element1);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+/**
+ * This method performs the click on start button.
+ * @throws Exception 
+ */
+	public FileUpload clickOnSubmit() throws Exception {
+
+			WebElement element1 = driver.findElement(By.xpath("//div[@class='col-md-12 no-padding form-buttons']/button[2]"));
+			javaScriptClick(element1);
+		
+			return new FileUpload();
+	}
+
+	/**
+	 * Used for validation
+	 * @return it returns the text from the select element.
+	 */
+	public String validateCreateProject() {
+		return valid_createProject.getText();
+	}
+
+	/**
+	 * This method used for clear the text filed.
+	 */
+	public void clearEditBox() {
+		txtbn_projectName.clear();
+	}
+		
+	/*
+	 * public void JavaScriptClick(WebElement element) throws Exception { try {
+	 * if (element.isEnabled() && element.isDisplayed()) {
+	 * System.out.println("Clicking on element with using java script click");
+	 * 
+	 * ((JavascriptExecutor) driver).executeScript("arguments[0].click();",
+	 * element); } lea else { System.out.println("Unable to click on element");
+	 * } } catch (Exception e) {
+	 * System.out.println("Unable to click on element "+ e.getStackTrace()); }
+	 * 
+	 * }
+	 */
+	
+	public String forStartNewProject()
+	{
+	return validStartProject.getText();
+	}
+	
+	public String withoutSelectAnyField()
+	{
+		return withoutSelectAnyOption.getText();
+	}
+	public String onlyEnterProjectName(){
+	
+		return validOnlyEnterProjectName.getText();
+	}
+	
+	public String validationOfCreateProject(){
+		
+		return driver.getCurrentUrl();
+	}
+
+}

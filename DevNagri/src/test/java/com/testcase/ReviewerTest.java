@@ -11,6 +11,10 @@ public class ReviewerTest  extends Base_Test {
 	
 	public Reviewer reviewer;
 	
+	/**
+	 * Verify the funtionality of the reviewer login.
+	 * @throws Exception
+	 */
 	@Test(priority=1)
 	public void reviewerDoLogin() throws Exception
 	{
@@ -19,6 +23,10 @@ public class ReviewerTest  extends Base_Test {
 		Assert.assertEquals(reviewer.vaidReviewerLogin(), "Translator Application");
 	}
 	
+	/**
+	 * Verify the functionality of the assign the project.
+	 * @throws Exception
+	 */
 	@Test(priority=2)
 	public void  doSelectReviewerProject() throws Exception
 	{
@@ -27,6 +35,10 @@ public class ReviewerTest  extends Base_Test {
 		Assert.assertEquals(reviewer.validAssignProject(), "Project Description");
 	}
 	
+	/**
+	 * Verify the functionality of automated translation button.
+	 * @throws Exception
+	 */
 	@Test(priority=3)
 	public void automatedTranslation() throws Exception
 	{
@@ -34,24 +46,40 @@ public class ReviewerTest  extends Base_Test {
 		Assert.assertEquals(reviewer.validAutomatedUpDown(), "Save & Next");
 	}
 	
+	/**
+	 * Verify the functionality of the accept button.
+	 * @throws Throwable
+	 */
 	@Test(priority=4)
 	public void doAcceptWord() throws Throwable
 	{
 		reviewer.acceptTranslation();
 	}
 	
+	/**
+	 * Verify the functionality of the complete button.
+	 * @throws Throwable
+	 */
 	@Test(priority=5, dependsOnMethods={"doAcceptWord"})
 	public void doClickOnComplete() throws Throwable
 	{
 		reviewer.completeReviewer();
 	}
 	
+	/**
+	 * Used for click on devnagri logo.
+	 * @throws InterruptedException
+	 */
 	@Test(priority=6,dependsOnMethods={"doClickOnComplete"})
 	public void doClickOnLogo() throws InterruptedException
 	{
 		reviewer.clickDeva();
 	}
 	
+	/**
+	 * Verify the functionality of the reviewer logout.
+	 * @throws InterruptedException
+	 */
 	@Test(priority=7)
 	public void doTranslatorLogout() throws InterruptedException
 	{

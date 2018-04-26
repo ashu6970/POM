@@ -99,6 +99,10 @@ public class LoginPage extends Base_Test {
 		btn_forgetSubmit.click();
 	}
 	
+	/**
+	 * This method used for validation.
+	 * @return
+	 */
 	public String forCredentialMatch()
 	{
 		return credentialDoNotMatch.getText();

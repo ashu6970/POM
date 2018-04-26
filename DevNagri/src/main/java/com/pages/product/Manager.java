@@ -91,7 +91,7 @@ public class Manager extends Base_Test{
 		txtbn_password.sendKeys(password);
 		btn_login.click();	
 	}
-	/*
+	/**
 	 * Used for JavaScript click
 	 */
 	public void selectCreatedProject() throws Exception
@@ -99,7 +99,7 @@ public class Manager extends Base_Test{
 		javaScriptClick(selectProject);
 	}
 	
-	/*
+	/**
 	 * It's used for click on the Hindi assign Translator button.
 	 */
 	public void assignLanguageTranslator()
@@ -107,7 +107,7 @@ public class Manager extends Base_Test{
 		btn_assignTranslatorToHindi.click();
 	}
 	
-	/*
+	/**
 	 * Used for click on assign translator button
 	 */
 	public void assignToTranslator()
@@ -116,7 +116,7 @@ public class Manager extends Base_Test{
 		
 	}
 	
-	/*
+	/**
 	 * Click on order button and wait for the element.
 	 */
 	public void createdOrder() throws Exception
@@ -125,7 +125,7 @@ public class Manager extends Base_Test{
 				javaScriptClick(btn_selectOrder);			
 	}
 	
-	/*
+	/**
 	 * click on button to assign the project to the translator.
 	 */
 	public void assign()
@@ -133,7 +133,7 @@ public class Manager extends Base_Test{
 		btn_assignProject.click();
 	}
 	
-	/*
+	/**
 	 *Used to click on translator project. 
 	 */
 	public void translator()
@@ -141,14 +141,14 @@ public class Manager extends Base_Test{
 		btn_translatorProject.click();
 	}
 	
-	/*
+	/**
 	 * It is used to clicj on client translator button.
 	 */
 	public void clientTranslator()
 	{
 		btn_clientTranslatorProject.click();
 	}
-	/*
+	/**
 	 * Used to click on automated translation button.
 	 */
 	public void automatedTranslationUpDown() throws Exception
@@ -157,7 +157,7 @@ public class Manager extends Base_Test{
 		 javaScriptClick(btn_automatedTranslationuUpDown);
 	}
 	
-	/*
+	/**
 	 * Click on the complete button after completion of translation.
 	 */
 	public void completeTranslation() throws Exception
@@ -166,7 +166,7 @@ public class Manager extends Base_Test{
 	javaScriptClick(btn_complete);
 	}
 
-	/*
+	/**
 	 * It is used for select all the words on the translation page.
 	 */
 	public void selectWords() throws Exception
@@ -189,7 +189,7 @@ public class Manager extends Base_Test{
 	return validationAssignProject.getText();
 	}
 	
-	/*
+	/**
 	 * Used for logout form manager module.
 	 */
       public void managerLogout() throws InterruptedException
@@ -199,7 +199,7 @@ public class Manager extends Base_Test{
 		 Thread.sleep(2000);
 		 btn_logout.click();
 	  }
-      /*
+      /**
        * It is used to logout from the client module.
        */
       public void clientLogout() throws InterruptedException
