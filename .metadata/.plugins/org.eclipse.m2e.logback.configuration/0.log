@@ -9323,3 +9323,8 @@ org.eclipse.core.runtime.CoreException: Launch configuration FileUploadTest.uplo
 2018-04-26 15:11:20,889 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@73a88c2b{/help,null,AVAILABLE}
 2018-04-26 15:11:20,912 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@544921d6{HTTP/1.1,[http/1.1]}{127.0.0.1:45345}
 2018-04-26 15:11:20,913 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @14655614ms
+2018-04-27 09:59:23,296 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @192965ms
+2018-04-27 09:59:23,616 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2018-04-27 09:59:23,708 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@36e1d71a{/help,null,AVAILABLE}
+2018-04-27 09:59:23,742 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@221efe5e{HTTP/1.1,[http/1.1]}{127.0.0.1:40756}
+2018-04-27 09:59:23,743 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @193414ms

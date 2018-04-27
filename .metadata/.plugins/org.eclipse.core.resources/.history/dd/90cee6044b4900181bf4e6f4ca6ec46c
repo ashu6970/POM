@@ -91,10 +91,6 @@ public class Manager extends Base_Test{
 	@FindBy(xpath = "//div[@class='card m-b-60 no-border']/div/table/tbody/tr/td[2]/a[1]")  // To select assign translator button.											
 	WebElement btn_assignTranslator;
 	
-	@FindBy(xpath = "//form[@id='assignForm']/input[2]")  // To select assign button.											
-	WebElement btn_assignToTranslator;
-	
-	
 	
 	public Manager() {
 
@@ -110,7 +106,7 @@ public class Manager extends Base_Test{
 		btn_login.click();	
 	}
 	/**
-	 * Used for JavaScript method for click
+	 * Used for JavaScript click
 	 */
 	public void selectCreatedProject() throws Exception
 	{

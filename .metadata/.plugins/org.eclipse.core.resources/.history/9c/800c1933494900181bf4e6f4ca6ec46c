@@ -56,7 +56,7 @@ public class Manager extends Base_Test{
 	@FindBy(xpath = "//div[@class='table-responsive']/child::table/tbody/tr[1]/td[4]/form[1]/input[2]") //Assign project to Translator
 	WebElement btn_assingToTranslator;
 
-	@FindBy(xpath = "//div[@class='alert alert-success']") //Validation
+	@FindBy(xpath = "//div[@class='alert alert-success']") //Assign project to Translator
 	WebElement validationAssignProject;
 
 	@FindBy(xpath="//ul[@class='navbar-nav my-lg-0']/child::li[4]/div[1]/ul[1]/li[5]/a[1]")  //  Select User logout button
@@ -86,15 +86,7 @@ public class Manager extends Base_Test{
 	WebElement btn_action;
 	
 	@FindBy(xpath = "//div[@class='glossary-ctrl-drop']/child::a[3]")  // To select the assign button.											
-	WebElement btn_assign;
-	
-	@FindBy(xpath = "//div[@class='card m-b-60 no-border']/div/table/tbody/tr/td[2]/a[1]")  // To select assign translator button.											
-	WebElement btn_assignTranslator;
-	
-	@FindBy(xpath = "//form[@id='assignForm']/input[2]")  // To select assign button.											
-	WebElement btn_assignToTranslator;
-	
-	
+	WebElement btn_action;
 	
 	public Manager() {
 
@@ -110,7 +102,7 @@ public class Manager extends Base_Test{
 		btn_login.click();	
 	}
 	/**
-	 * Used for JavaScript method for click
+	 * Used for JavaScript click
 	 */
 	public void selectCreatedProject() throws Exception
 	{

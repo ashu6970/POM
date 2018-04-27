@@ -110,7 +110,7 @@ public class Manager extends Base_Test{
 		btn_login.click();	
 	}
 	/**
-	 * Used for JavaScript method for click
+	 * Used for JavaScript click
 	 */
 	public void selectCreatedProject() throws Exception
 	{

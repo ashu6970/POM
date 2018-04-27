@@ -47,7 +47,7 @@ public class ReviewerTest  extends Base_Test {
 	}
 	
 	/**
-	 * Verify the functionality of select all the words and do accept the words.
+	 * Verify the functionality of the accept button.
 	 * @throws Throwable
 	 */
 	@Test(priority=4)
