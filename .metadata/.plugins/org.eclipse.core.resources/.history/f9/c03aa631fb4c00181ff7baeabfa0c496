@@ -130,7 +130,8 @@ public class Manager extends Base_Test{
 	 */
 	public void assignToTranslator()
 	{
-		 btn_assingToTranslator.click();	
+		 btn_assingToTranslator.click();
+		
 	}
 	
 	/**

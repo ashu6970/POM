@@ -130,7 +130,8 @@ public class Manager extends Base_Test{
 	 */
 	public void assignToTranslator()
 	{
-		 btn_assingToTranslator.click();	
+		 btn_assingToTranslator.click();
+		
 	}
 	
 	/**
@@ -151,7 +152,7 @@ public class Manager extends Base_Test{
 	}
 	
 	/**
-	 *Used for click on translator project. 
+	 *Used to click on translator project. 
 	 */
 	public void translator()
 	{
@@ -159,7 +160,7 @@ public class Manager extends Base_Test{
 	}
 	
 	/**
-	 * It is used to click on client translator button.
+	 * It is used to clicj on client translator button.
 	 */
 	public void clientTranslator()
 	{
