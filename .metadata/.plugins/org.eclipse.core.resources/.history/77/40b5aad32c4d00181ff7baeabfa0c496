@@ -10,7 +10,7 @@ public class TranslatorTest extends Base_Test{
 	public Translator translator;
 	
 	/**
-	 * Verify the functionality of the translator login.
+	 * Verify the funtionality of the translator login.
 	 * @throws Exception
 	 */
 	@Test(priority=1)

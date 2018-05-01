@@ -97,6 +97,8 @@ public class Manager extends Base_Test{
 	@FindBy(xpath = "//div[@class='button-space']/a[1]")  // Click on start translation button.									
 	WebElement btn_startTranslation;
 	
+	
+	
 	public Manager() {
 
 		PageFactory.initElements(driver, this);
