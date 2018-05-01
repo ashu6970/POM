@@ -102,6 +102,7 @@ public class ManagerTest extends Base_Test {
 		Thread.sleep(2000);
 		manager.doClickOnStartTranslation();
 		manager.automatedTranslationUpDown();
+		//manager.selectWords();
 		manager.completeTranslation();
 		Thread.sleep(2000);
 		manager.managerLogout();			
@@ -115,6 +116,7 @@ public class ManagerTest extends Base_Test {
 	{
 		manager.login("test.client@devnagri.com","secret");
 		manager.selectCreatedProject();
+		Thread.sleep(2000);
 		manager.orderDetails();
 		Thread.sleep(2000);
 		manager.doClickOnStartTranslation();

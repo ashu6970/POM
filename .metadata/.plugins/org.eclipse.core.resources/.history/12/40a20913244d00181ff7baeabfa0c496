@@ -51,10 +51,6 @@ public class ManagerTest extends Base_Test {
 		Thread.sleep(2000);
 	}
 	
-	/**
-	 * Verify the functionality of the assign button
-	 * @throws Exception
-	 */
 	@Test(priority=5)
 	public void clickOnAssignLink() throws Exception
 	{
@@ -79,7 +75,7 @@ public class ManagerTest extends Base_Test {
 	{
 		Thread.sleep(3000);
 		manager.assignToTranslator();
-
+		System.out.println(manager.assignProjectToTranslator());
 	}
 	/**
 	 * Verify the functionality of logout.
@@ -91,17 +87,18 @@ public class ManagerTest extends Base_Test {
 	}
 
 	/**
-	 * This method used for login and perform to complete the project.
+	 * This method used for login and perform to complete the translated words.
 	 */
 	@AfterSuite
 	public void managerTranslationPage() throws Exception
 	{
 		manager.login("test.manager@devnagri.com","secret");
 		manager.selectCreatedProject();	
-		manager.orderDetails();
-		Thread.sleep(2000);
-		manager.doClickOnStartTranslation();
+		pageScrolldown();
+		manager.createdOrder();
+		manager.translator();
 		manager.automatedTranslationUpDown();
+		//manager.selectWords();
 		manager.completeTranslation();
 		Thread.sleep(2000);
 		manager.managerLogout();			
@@ -115,9 +112,9 @@ public class ManagerTest extends Base_Test {
 	{
 		manager.login("test.client@devnagri.com","secret");
 		manager.selectCreatedProject();
-		manager.orderDetails();
 		Thread.sleep(2000);
-		manager.doClickOnStartTranslation();
+		manager.createdOrder();
+		manager.clientTranslator();
 		manager.completeTranslation();
 		Thread.sleep(2000);
 		manager.clientLogout();		

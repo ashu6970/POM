@@ -94,9 +94,6 @@ public class Manager extends Base_Test{
 	@FindBy(xpath = "//form[@id='assignForm']/input[2]")  // To select assign button.											
 	WebElement btn_assignToTranslator;
 	
-	@FindBy(xpath = "//div[@class='button-space']/a[1]")  // Click on start translation button.									
-	WebElement btn_startTranslation;
-	
 	
 	
 	public Manager() {
@@ -143,7 +140,7 @@ public class Manager extends Base_Test{
 	 */
 	public void assignToTranslator()
 	{
-		btn_assignToTranslator.click();	
+		 btn_assingToTranslator.click();	
 	}
 	
 	/**
@@ -170,13 +167,6 @@ public class Manager extends Base_Test{
 	{
 		btn_translatorProject.click();
 	}
-	
-	public void doClickOnStartTranslation() throws Exception
-	{
-		waitForElement(btn_startTranslation);
-		javaScriptClick(btn_startTranslation);
-	}
-	
 	
 	/**
 	 * It is used to click on client translator button.

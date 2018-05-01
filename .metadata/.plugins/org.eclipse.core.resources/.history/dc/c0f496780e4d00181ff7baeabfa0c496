@@ -31,41 +31,20 @@ public class ManagerTest extends Base_Test {
 	}
 	
 	/**
-	 * Click on the order button for assign the project to the translator.
+	 * Click on the order button for assing the project to the translator.
 	 */
 	@Test(priority=3)
 	public void selectOrder() throws Exception
 	{
-		manager.orderDetails();	
+		manager.createdOrder();	
 		Thread.sleep(2000);
-	}
-	
-	/**
-	 * Do perform click on the actions button.
-	 * @throws Exception
-	 */
-	@Test(priority=4)
-	public void performActions() throws Exception
-	{
-		manager.action();	
-		Thread.sleep(2000);
-	}
-	
-	/**
-	 * Verify the functionality of the assign button
-	 * @throws Exception
-	 */
-	@Test(priority=5)
-	public void clickOnAssignLink() throws Exception
-	{
-		manager.doClickOnAssignButton();	
-		Thread.sleep(2000);
+		manager.assign();
 	}
 	
 	/**
 	 *Verify the functionality when project assign to the translator in hindi language.
 	 */
-	@Test(priority=6)
+	@Test(priority=4)
 	public void selectLanguageTranslator()
 	{
 		manager.assignLanguageTranslator();
@@ -74,34 +53,35 @@ public class ManagerTest extends Base_Test {
 	/**
 	 * Verify the functionality of assign project to the translator.
 	 */
-	@Test(priority=7)
+	@Test(priority=5)
 	public void assignProjectToTranslator() throws InterruptedException
 	{
 		Thread.sleep(3000);
 		manager.assignToTranslator();
-
+		System.out.println(manager.assignProjectToTranslator());
 	}
 	/**
 	 * Verify the functionality of logout.
 	 */
-	@Test(priority=8)
+	@Test(priority=6)
 	public void doManagerLogout() throws InterruptedException
 	{
 	manager.managerLogout();
 	}
 
 	/**
-	 * This method used for login and perform to complete the project.
+	 * This method used for login and perform to complete the translated words.
 	 */
 	@AfterSuite
 	public void managerTranslationPage() throws Exception
 	{
 		manager.login("test.manager@devnagri.com","secret");
 		manager.selectCreatedProject();	
-		manager.orderDetails();
-		Thread.sleep(2000);
-		manager.doClickOnStartTranslation();
+		pageScrolldown();
+		manager.createdOrder();
+		manager.translator();
 		manager.automatedTranslationUpDown();
+		//manager.selectWords();
 		manager.completeTranslation();
 		Thread.sleep(2000);
 		manager.managerLogout();			
@@ -115,9 +95,9 @@ public class ManagerTest extends Base_Test {
 	{
 		manager.login("test.client@devnagri.com","secret");
 		manager.selectCreatedProject();
-		manager.orderDetails();
 		Thread.sleep(2000);
-		manager.doClickOnStartTranslation();
+		manager.createdOrder();
+		manager.clientTranslator();
 		manager.completeTranslation();
 		Thread.sleep(2000);
 		manager.clientLogout();		
