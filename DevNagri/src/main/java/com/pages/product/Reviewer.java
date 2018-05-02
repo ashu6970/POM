@@ -30,7 +30,7 @@ public class Reviewer extends Base_Test{
 	@FindBy(xpath = "//div[@class='col-md-12 automated-control']")  // To Select automated Translation.													
 	WebElement btn_automatedTranslationuUpDown;
 	
-	@FindBy(xpath = "//div[@class='col-md-3 col-xm-4 col-xs-6'][last()]/div/a")  // To select the project.													
+	@FindBy(xpath = "//div[@class='row']/div[1]/div/a")  // To select the project.													
 	WebElement selectReviewerProject;
 	
 	//@FindBys(@FindBy(xpath = "//div[@class='sentence-list  warning hover']")) // Select the all the path of words.

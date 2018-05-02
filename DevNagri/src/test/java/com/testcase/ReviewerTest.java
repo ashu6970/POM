@@ -67,7 +67,7 @@ public class ReviewerTest  extends Base_Test {
 	}
 	
 	/**
-	 * Used for click on devnagri logo.
+	 * Used for click on Devnagri logo.
 	 * @throws InterruptedException
 	 */
 	@Test(priority=6,dependsOnMethods={"doClickOnComplete"})

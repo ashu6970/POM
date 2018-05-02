@@ -40,7 +40,7 @@ public class Translator extends Base_Test {
 	WebElement btn_complete;
 	
 	
-	@FindBy(xpath = "//div[@class='col-md-3 col-xm-4 col-xs-6'][last()]/div/a")  // To select the project.													
+	@FindBy(xpath = "//div[@class='row grid-data']/div[1]/div/a")  // To select the project.													
 	WebElement selectTranslatorProject;
 	
 	@FindBy(xpath = "//a[@href='http://staging.devnagri.com']")  // To select the devnagri logo.													

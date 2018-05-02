@@ -101,8 +101,7 @@ public class FileUploadTest extends Base_Test {
     
    fileload.upLoadFile(String.valueOf(randomElement));
    Thread.sleep(2000);
-   Assert.assertEquals(fileload.forValidateFileFormat(), "Supported");
-   System.out.println(fileload.forValidateFileFormat()); 
+   Assert.assertEquals(fileload.forValidateFileFormat(), "Supported"); 
    Thread.sleep(3000);
 		//fileload.upLoadFile(prop.getProperty("File_po"));
 		

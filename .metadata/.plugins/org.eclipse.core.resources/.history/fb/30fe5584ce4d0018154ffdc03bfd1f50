@@ -1,0 +1,205 @@
+package com.pages.product;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+
+import com.main.product.Base_Test;
+
+public class Translator extends Base_Test {
+	
+	@FindBy(xpath = "//form[@id='loginform']/div[1]/div[1]/input[1]") // Enter the email id
+	WebElement txtbn_username;
+
+	@FindBy(xpath = "//form[@id='loginform']/div[2]/div[1]/input[1]") // Enter the email password
+	WebElement txtbn_password;
+
+	@FindBy(xpath = "//form[@id='loginform']/div[4]/div[1]/button[1]") // To Select the login button													
+	WebElement btn_login;
+	
+	@FindBy(xpath = "//a[@href='http://staging.devnagri.com/earnings']")  // To Select the translator earnings.													
+	WebElement btn_earnings;
+	
+	@FindBy(xpath = "//div[@class='col-md-12 automated-control']")  // To Select automated Translation.													
+	WebElement btn_automatedTranslationuUpDown;
+	
+	@FindBy(xpath = "//div[@class='col-md-7 right-controls text-right p-t-0']/button[1]")  // To Select the translator earnings.													
+	WebElement btn_translate;
+	
+//	@FindBys(@FindBy(xpath = "//div[@class='sentence-list  default']")) // Select the all path of words.
+	// List<WebElement> selectAllWords;
+
+	@FindBy(xpath = "//div[@class='row translation-view']/div[2]/textarea")  // To Enter the text in the text field.													
+	WebElement textArea;
+	
+	@FindBy(xpath = "//div[@class='col-md-1 drops form-buttons p-t-0 no-border']/button")  // To Enter the text in the text field.													
+	WebElement btn_complete;
+	
+	
+	@FindBy(xpath = "//div[@class='col-md-3 col-xm-4 col-xs-6'][last()]/div/a")  // To select the project.													
+	WebElement selectTranslatorProject;
+	
+	@FindBy(xpath = "//a[@href='http://staging.devnagri.com']")  // To select the devnagri logo.													
+	WebElement devlogo;
+	
+	@FindBy(xpath="//ul[@class='navbar-nav my-lg-0']/child::li[4]/a[1]") // Select the user button
+	WebElement btn_user;
+	
+	@FindBy(xpath="//ul[@class='navbar-nav my-lg-0']/child::li[4]/div[1]/ul[1]/li[5]/a[1]")  //  Select User logout button
+	WebElement btn_logout;
+	
+	@FindBy(xpath="//ul[@id='sidebarnav']/li[2]/a/span")  // To get the earning text.
+	WebElement validationTranslatorLoginPage;
+	
+	@FindBy(xpath="//div[@class='row control-bar trans m-l-0 m-r--2']/div/h4")  // To get the project description text on translation page.
+	WebElement validationAssignProject;
+	
+	@FindBy(xpath="//div[@class='col-md-7 right-controls text-right p-t-0']/button[2]")  // To get the save and next text on translation page.
+	WebElement validationAutomatedUpDown;
+	
+	@FindBy(xpath="//div[@class='col-md-1 drops form-buttons p-t-0 no-border']/button")  // To get the Completed text on translation page.
+	WebElement validationCompleteTranslation;
+	
+	
+	public Translator() {
+
+		PageFactory.initElements(driver, this);
+	}
+	
+	/**
+	 * This method used for receive the email and password.
+	 * @param username
+	 * @param password
+	 */
+	public void login(String username,String password)
+	{
+		txtbn_username.clear();
+		txtbn_username.clear();											
+		txtbn_username.sendKeys(username);
+		txtbn_password.sendKeys(password);
+		btn_login.click();	
+	}
+	
+	/**
+	 * Used for select the assign project.
+	 * @throws Exception
+	 */
+	public void assignProject() throws Exception 
+	{
+	javaScriptClick(selectTranslatorProject);
+	}
+	
+	/**
+	 * This method used for click on automated button for UP and down.
+	 * @throws Exception
+	 */
+	public void automatedTranslationUpDown() throws Exception
+	{
+		Thread.sleep(3000);
+		javaScriptClick(btn_automatedTranslationuUpDown);
+	}
+	
+	/**
+	 * Used for click on translate button.
+	 */
+	public void clickOnTranslateButton()
+	{
+		btn_translate.click();
+	}
+	
+	/**
+	 * Method used for click on all the words and do trnaslated all the words.
+	 * @throws Throwable
+	 */
+	public void clickOnWord() throws Throwable
+	{
+		List<WebElement> selectAllWords = driver.findElements(By.xpath("//div[@class='sentence-list  default']"));
+		int size=selectAllWords.size();
+		
+		for(int i=0; i<size;i++)
+		{
+			Thread.sleep(2000);
+			selectAllWords.get(i).click();
+			Thread.sleep(3000);	
+			textArea.sendKeys(generateRandomString(20));
+			Thread.sleep(2000);
+			javaScriptClick(btn_translate);
+			
+			
+			/*Thread.sleep(2000);
+			System.out.println(drop.get(i).getTagName());
+			System.out.println(i);
+			drop.get(i).click();
+			driver.findElement(By.xpath("//div[@class='row translation-view']/div[2]/textarea")).sendKeys(generateRandomString(20));
+			Thread.sleep(1000);
+			WebElement element2 = driver.findElement(By.xpath("//div[@class='col-md-7 right-controls text-right p-t-0']/button[1]"));
+			JavascriptExecutor executor2 = (JavascriptExecutor)driver;
+			executor2.executeScript("arguments[0].click();", element2);*/
+			
+		}
+		
+	}
+	/**
+	 * Method used for click on the complete button.
+	 * @throws Exception
+	 */
+	public void completeTranslation() throws Exception
+	{
+	waitForElement(btn_complete);
+	javaScriptClick(btn_complete);
+	Thread.sleep(2000);
+	}
+	
+	/**
+	 * Used for click on devnagri logo.
+	 * @throws InterruptedException
+	 */
+	public void clickDeva() throws InterruptedException
+	{
+		devlogo.click();
+		Thread.sleep(3000);
+	}
+	
+	/**
+	 * This method used for reviewer logout.
+	 * @throws InterruptedException
+	 */
+	 public void translatorLogout() throws InterruptedException
+		
+	  {
+		 btn_user.click();
+		 Thread.sleep(2000);
+		 btn_logout.click();
+	  }
+	 
+	 /**
+	  * Used for validations.
+	  * @return
+	  */
+	 public String validTranslatorPage()
+	 {
+		 return validationTranslatorLoginPage.getText();
+		 
+	 }
+	 
+	 public String validAssignProject()
+	 {
+		 return validationAssignProject.getText();
+	 }
+	
+	 public String validAutomatedUpDown()
+	 {
+		 return validationAutomatedUpDown.getText();
+	 }
+	 
+	 public String validCompleteTranslation()
+	 {
+		 return validationCompleteTranslation.getText();
+	 }
+	 
+
+}
