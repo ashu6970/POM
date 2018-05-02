@@ -97,6 +97,9 @@ public class Manager extends Base_Test{
 	@FindBy(xpath = "//div[@class='button-space']/a[1]")  // Click on start translation button.									
 	WebElement btn_startTranslation;
 	
+	@FindBy(xpath = "//div[@class='glossary-ctrl-drop']/a[1]")  // Click on translate button.									
+	WebElement btn_Translate;
+	
 	public Manager() {
 
 		PageFactory.initElements(driver, this);
@@ -122,7 +125,6 @@ public class Manager extends Base_Test{
 	 * Used for click on assing button
 	 * @throws Exception
 	 */
-	
 	public void doClickOnAssignButton() throws Exception
 	{
 		javaScriptClick(btn_assign);
@@ -155,12 +157,23 @@ public class Manager extends Base_Test{
 	
 	/**
 	 * click on button to assign the project to the translator.
+	 * @throws Exception 
 	 */
-	public void action()
+	public void action() throws Exception
 	{
-		btn_action.click();
+		waitForElement(btn_action);
+		javaScriptClick(btn_action);
 	}
 	
+	/**
+	 * Click on the translate button
+	 * @throws Exception
+	 */
+	public void clickOnTrnaslate() throws Exception
+	{
+		waitForElement(btn_Translate);
+		javaScriptClick(btn_Translate);
+	}
 	/**
 	 *Used for click on translator project. 
 	 */
@@ -174,7 +187,6 @@ public class Manager extends Base_Test{
 		waitForElement(btn_startTranslation);
 		javaScriptClick(btn_startTranslation);
 	}
-	
 	
 	/**
 	 * It is used to click on client translator button.

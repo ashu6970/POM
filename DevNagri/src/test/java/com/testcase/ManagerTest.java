@@ -79,7 +79,6 @@ public class ManagerTest extends Base_Test {
 	{
 		Thread.sleep(3000);
 		manager.assignToTranslator();
-
 	}
 	/**
 	 * Verify the functionality of logout.
@@ -98,8 +97,10 @@ public class ManagerTest extends Base_Test {
 	{
 		manager.login("test.manager@devnagri.com","secret");
 		manager.selectCreatedProject();	
+		manager.orderDetails();
+		manager.action();
+		manager.clickOnTrnaslate();
 		Thread.sleep(2000);
-		manager.doClickOnStartTranslation();
 		manager.automatedTranslationUpDown();
 		manager.completeTranslation();
 		Thread.sleep(2000);
@@ -114,12 +115,12 @@ public class ManagerTest extends Base_Test {
 	{
 		manager.login("test.client@devnagri.com","secret");
 		manager.selectCreatedProject();
+		manager.orderDetails();
+		manager.action();
+		manager.clickOnTrnaslate();
 		Thread.sleep(2000);
-		manager.doClickOnStartTranslation();
 		manager.completeTranslation();
 		Thread.sleep(2000);
 		manager.clientLogout();		
-	}
-	
-	
+	}		
 }

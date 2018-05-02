@@ -1,0 +1,125 @@
+package com.testcase;
+import org.testng.Assert;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.Test;
+
+import com.main.product.Base_Test;
+import com.pages.product.Manager;
+
+public class ManagerTest extends Base_Test {
+	
+	public Manager manager =null;
+	/**
+	 *Verify the functionality of the manager login.
+	 */
+	@Test(priority=1)
+	public void doMangerLogin()
+	{								
+		manager=new Manager();
+		manager.login("test.manager@devnagri.com","secret");
+		Assert.assertEquals(manager.managerLoginValidation(),"Manage Users");	
+	}
+	
+	/**
+	 * This method used for select the create project.
+	 */
+	@Test(priority=2)
+	public void selectTheCreatedProject() throws Exception
+	{
+		manager.selectCreatedProject();	
+		pageScrolldown();
+	}
+	
+	/**
+	 * Click on the order button for assign the project to the translator.
+	 */
+	@Test(priority=3)
+	public void selectOrder() throws Exception
+	{
+		manager.orderDetails();	
+		Thread.sleep(2000);
+	}
+	
+	/**
+	 * Do perform click on the actions button.
+	 * @throws Exception
+	 */
+	@Test(priority=4)
+	public void performActions() throws Exception
+	{
+		manager.action();	
+		Thread.sleep(2000);
+	}
+	
+	/**
+	 * Verify the functionality of the assign button
+	 * @throws Exception
+	 */
+	@Test(priority=5)
+	public void clickOnAssignLink() throws Exception
+	{
+		manager.doClickOnAssignButton();	
+		Thread.sleep(2000);
+	}
+	
+	/**
+	 *Verify the functionality when project assign to the translator in hindi language.
+	 */
+	@Test(priority=6)
+	public void selectLanguageTranslator()
+	{
+		manager.assignLanguageTranslator();
+	}
+	
+	/**
+	 * Verify the functionality of assign project to the translator.
+	 */
+	@Test(priority=7)
+	public void assignProjectToTranslator() throws InterruptedException
+	{
+		Thread.sleep(3000);
+		manager.assignToTranslator();
+
+	}
+	/**
+	 * Verify the functionality of logout.
+	 */
+	@Test(priority=8)
+	public void doManagerLogout() throws InterruptedException
+	{
+	manager.managerLogout();
+	}
+
+	/**
+	 * This method used for login and perform to complete the project.
+	 */
+	@AfterSuite
+	public void managerTranslationPage() throws Exception
+	{
+		manager.login("test.manager@devnagri.com","secret");
+		manager.selectCreatedProject();	
+		Thread.sleep(2000);
+		manager.doClickOnStartTranslation();
+		manager.automatedTranslationUpDown();
+		manager.completeTranslation();
+		Thread.sleep(2000);
+		manager.managerLogout();			
+	}
+	
+	/**
+	 * This method used to verified the translated word after done by the manager.
+	 */
+	@AfterSuite(dependsOnMethods = { "managerTranslationPage" })
+	public void ClientTranslationPage() throws Exception
+	{
+		manager.login("test.client@devnagri.com","secret");
+		manager.selectCreatedProject();
+		Thread.sleep(2000);
+		manager.doClickOnStartTranslation();
+		manager.completeTranslation();
+		Thread.sleep(2000);
+		manager.clientLogout();		
+	}
+	
+	
+}
