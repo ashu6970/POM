@@ -4,15 +4,35 @@
   <listeners>
     <listener class-name="com.ExtentReport.ExtentReporterNG"/>
   </listeners>
-  <test name="Manager(failed)">
+  <test name="Create Project Testcase(failed)">
     <classes>
-      <class name="com.testcase.ManagerTest">
+      <class name="com.testcase.CreateProjectTest">
         <methods>
-          <include name="assignProjectToTranslator"/>
-          <include name="managerTranslationPage"/>
-          <include name="ClientTranslationPage"/>
+          <include name="doClickOnLetsStartButton"/>
         </methods>
-      </class> <!-- com.testcase.ManagerTest -->
+      </class> <!-- com.testcase.CreateProjectTest -->
     </classes>
-  </test> <!-- Manager(failed) -->
+  </test> <!-- Create Project Testcase(failed) -->
+  <test name="Translator(failed)">
+    <classes>
+      <class name="com.testcase.TranslatorTest">
+        <methods>
+          <include name="doClickOnLogo"/>
+          <include name="doselectWordsAndEnterText"/>
+          <include name="docompleteTranslation"/>
+        </methods>
+      </class> <!-- com.testcase.TranslatorTest -->
+    </classes>
+  </test> <!-- Translator(failed) -->
+  <test name="Reviewer(failed)">
+    <classes>
+      <class name="com.testcase.ReviewerTest">
+        <methods>
+          <include name="doAcceptWord"/>
+          <include name="doClickOnComplete"/>
+          <include name="doClickOnLogo"/>
+        </methods>
+      </class> <!-- com.testcase.ReviewerTest -->
+    </classes>
+  </test> <!-- Reviewer(failed) -->
 </suite> <!-- Failed suite [Automation Test Suite] -->

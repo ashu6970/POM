@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.main.product.Base_Test;
 
-public class Manager extends Base_Test{
+public class Manager extends Base_Test {
 	
 	
 	@FindBy(xpath = "//form[@id='loginform']/div[1]/div[1]/input[1]") // Enter the email id

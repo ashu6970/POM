@@ -6,20 +6,20 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="wait" key="selection"/>
+		<item value="//div[@class=&apos;button-space&apos;]/a[1]" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="//div[@class=&apos;button-space&apos;]/a[1]"/>
+			<item value="@FindBy(xpath = &quot;//div[@class=&apos;card m-b-60 no-border&apos;]/child::div[1]/table/tbody/tr[2]/td[2]/a&quot;)"/>
+			<item value="action"/>
+			<item value="translate"/>
+			<item value="assign"/>
+			<item value="btn_startTranslation"/>
 			<item value="wait"/>
 			<item value="wait&apos;"/>
-			<item value="//*[@id=&apos;container&apos;]/div[1]/div[1]/a"/>
-			<item value="createproject"/>
-			<item value="//*[@class=&apos;col-md-8 success&apos;]/child::center/a[1]"/>
-			<item value="validate"/>
-			<item value=".//*[@id=&apos;start-project-card&apos;]/div/div/a[1]"/>
-			<item value="//a[contains(text(),&apos;Add New File&apos;)]"/>
 		</list>
 		<list key="replacehistory">
 		</list>
@@ -28,7 +28,7 @@
 		<item value="338" key="DIALOG_WIDTH"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		<item value="434" key="DIALOG_HEIGHT"/>
-		<item value="919" key="DIALOG_X_ORIGIN"/>
-		<item value="207" key="DIALOG_Y_ORIGIN"/>
+		<item value="945" key="DIALOG_X_ORIGIN"/>
+		<item value="310" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

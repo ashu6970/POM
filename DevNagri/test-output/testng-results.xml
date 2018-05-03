@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="45" passed="42">
+<testng-results skipped="0" failed="3" ignored="3" total="47" passed="41">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation Test Suite" duration-ms="569161" started-at="2018-04-25T05:40:56Z" finished-at="2018-04-25T05:50:25Z">
+  <suite name="Automation Test Suite" duration-ms="284469" started-at="2018-05-02T12:09:06Z" finished-at="2018-05-02T12:13:51Z">
     <groups>
       <group name="Negative">
         <method signature="LoginPageTest.checkCaseSensitive()[pri:5, instance:com.testcase.LoginPageTest@5442a311]" name="checkCaseSensitive" class="com.testcase.LoginPageTest"/>
@@ -15,211 +15,243 @@
         <method signature="CreateProjectTest.withOutSelectAllOptions()[pri:1, instance:com.testcase.CreateProjectTest@56ac3a89]" name="withOutSelectAllOptions" class="com.testcase.CreateProjectTest"/>
       </group> <!-- Negative -->
     </groups>
-    <test name="Login Testcase" duration-ms="64712" started-at="2018-04-25T05:40:56Z" finished-at="2018-04-25T05:42:01Z">
+    <test name="Login Testcase" duration-ms="25026" started-at="2018-05-02T12:09:06Z" finished-at="2018-05-02T12:09:31Z">
       <class name="com.testcase.LoginPageTest">
-        <test-method status="PASS" signature="openBrowser()[pri:1, instance:com.testcase.LoginPageTest@5442a311]" name="openBrowser" duration-ms="14860" started-at="2018-04-25T11:10:56Z" finished-at="2018-04-25T11:11:11Z">
+        <test-method status="PASS" signature="openBrowser()[pri:1, instance:com.testcase.LoginPageTest@5442a311]" name="openBrowser" duration-ms="8626" started-at="2018-05-02T17:39:06Z" finished-at="2018-05-02T17:39:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="invalidEmail()[pri:2, instance:com.testcase.LoginPageTest@5442a311]" name="invalidEmail" duration-ms="6959" started-at="2018-04-25T11:11:11Z" finished-at="2018-04-25T11:11:18Z">
+        <test-method status="PASS" signature="invalidEmail()[pri:2, instance:com.testcase.LoginPageTest@5442a311]" name="invalidEmail" duration-ms="2426" started-at="2018-05-02T17:39:15Z" finished-at="2018-05-02T17:39:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidEmail -->
-        <test-method status="PASS" signature="invalidPassword()[pri:3, instance:com.testcase.LoginPageTest@5442a311]" name="invalidPassword" duration-ms="7230" started-at="2018-04-25T11:11:18Z" finished-at="2018-04-25T11:11:25Z">
+        <test-method status="PASS" signature="invalidPassword()[pri:3, instance:com.testcase.LoginPageTest@5442a311]" name="invalidPassword" duration-ms="1830" started-at="2018-05-02T17:39:17Z" finished-at="2018-05-02T17:39:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidPassword -->
-        <test-method status="PASS" signature="invalidPwdEmail()[pri:4, instance:com.testcase.LoginPageTest@5442a311]" name="invalidPwdEmail" duration-ms="7545" started-at="2018-04-25T11:11:25Z" finished-at="2018-04-25T11:11:33Z">
+        <test-method status="PASS" signature="invalidPwdEmail()[pri:4, instance:com.testcase.LoginPageTest@5442a311]" name="invalidPwdEmail" duration-ms="2104" started-at="2018-05-02T17:39:19Z" finished-at="2018-05-02T17:39:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidPwdEmail -->
-        <test-method status="PASS" signature="checkCaseSensitive()[pri:5, instance:com.testcase.LoginPageTest@5442a311]" name="checkCaseSensitive" duration-ms="11506" started-at="2018-04-25T11:11:33Z" finished-at="2018-04-25T11:11:44Z">
+        <test-method status="PASS" signature="checkCaseSensitive()[pri:5, instance:com.testcase.LoginPageTest@5442a311]" name="checkCaseSensitive" duration-ms="3572" started-at="2018-05-02T17:39:21Z" finished-at="2018-05-02T17:39:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCaseSensitive -->
-        <test-method status="PASS" signature="checkUnicodeTransformationFormat()[pri:6, instance:com.testcase.LoginPageTest@5442a311]" name="checkUnicodeTransformationFormat" duration-ms="5546" started-at="2018-04-25T11:11:44Z" finished-at="2018-04-25T11:11:50Z">
+        <test-method status="PASS" signature="checkUnicodeTransformationFormat()[pri:6, instance:com.testcase.LoginPageTest@5442a311]" name="checkUnicodeTransformationFormat" duration-ms="1674" started-at="2018-05-02T17:39:25Z" finished-at="2018-05-02T17:39:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkUnicodeTransformationFormat -->
-        <test-method status="PASS" signature="doLogin()[pri:7, instance:com.testcase.LoginPageTest@5442a311]" name="doLogin" duration-ms="10867" started-at="2018-04-25T11:11:50Z" finished-at="2018-04-25T11:12:01Z">
+        <test-method status="PASS" signature="doLogin()[pri:7, instance:com.testcase.LoginPageTest@5442a311]" name="doLogin" duration-ms="4734" started-at="2018-05-02T17:39:26Z" finished-at="2018-05-02T17:39:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
       </class> <!-- com.testcase.LoginPageTest -->
     </test> <!-- Login Testcase -->
-    <test name="Create Project Testcase" duration-ms="67343" started-at="2018-04-25T05:42:01Z" finished-at="2018-04-25T05:43:08Z">
+    <test name="Create Project Testcase" duration-ms="41586" started-at="2018-05-02T12:09:31Z" finished-at="2018-05-02T12:10:13Z">
       <class name="com.testcase.CreateProjectTest">
-        <test-method status="PASS" signature="startProject()[pri:0, instance:com.testcase.CreateProjectTest@56ac3a89]" name="startProject" duration-ms="7717" started-at="2018-04-25T11:12:01Z" finished-at="2018-04-25T11:12:08Z">
+        <test-method status="PASS" signature="startProject()[pri:0, instance:com.testcase.CreateProjectTest@56ac3a89]" name="startProject" duration-ms="1557" started-at="2018-05-02T17:39:31Z" finished-at="2018-05-02T17:39:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startProject -->
-        <test-method status="PASS" signature="withOutSelectAllOptions()[pri:1, instance:com.testcase.CreateProjectTest@56ac3a89]" name="withOutSelectAllOptions" duration-ms="9669" started-at="2018-04-25T11:12:08Z" finished-at="2018-04-25T11:12:18Z">
+        <test-method status="PASS" signature="withOutSelectAllOptions()[pri:1, instance:com.testcase.CreateProjectTest@56ac3a89]" name="withOutSelectAllOptions" duration-ms="1856" started-at="2018-05-02T17:39:33Z" finished-at="2018-05-02T17:39:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withOutSelectAllOptions -->
-        <test-method status="PASS" signature="onlyEnterProjectName()[pri:2, instance:com.testcase.CreateProjectTest@56ac3a89]" name="onlyEnterProjectName" duration-ms="11305" started-at="2018-04-25T11:12:18Z" finished-at="2018-04-25T11:12:29Z">
+        <test-method status="PASS" signature="onlyEnterProjectName()[pri:2, instance:com.testcase.CreateProjectTest@56ac3a89]" name="onlyEnterProjectName" duration-ms="4186" started-at="2018-05-02T17:39:35Z" finished-at="2018-05-02T17:39:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onlyEnterProjectName -->
-        <test-method status="PASS" signature="onlySelectTargetLanguage()[pri:3, instance:com.testcase.CreateProjectTest@56ac3a89]" name="onlySelectTargetLanguage" duration-ms="15908" started-at="2018-04-25T11:12:29Z" finished-at="2018-04-25T11:12:45Z">
+        <test-method status="PASS" signature="onlySelectTargetLanguage()[pri:3, instance:com.testcase.CreateProjectTest@56ac3a89]" name="onlySelectTargetLanguage" duration-ms="9641" started-at="2018-05-02T17:39:39Z" finished-at="2018-05-02T17:39:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onlySelectTargetLanguage -->
-        <test-method status="PASS" signature="typeProjectName()[pri:4, instance:com.testcase.CreateProjectTest@56ac3a89]" name="typeProjectName" duration-ms="973" started-at="2018-04-25T11:12:45Z" finished-at="2018-04-25T11:12:46Z">
+        <test-method status="PASS" signature="typeProjectName()[pri:4, instance:com.testcase.CreateProjectTest@56ac3a89]" name="typeProjectName" duration-ms="188" started-at="2018-05-02T17:39:48Z" finished-at="2018-05-02T17:39:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- typeProjectName -->
-        <test-method status="PASS" signature="projectType()[pri:5, instance:com.testcase.CreateProjectTest@56ac3a89]" name="projectType" duration-ms="1817" started-at="2018-04-25T11:12:46Z" finished-at="2018-04-25T11:12:48Z">
+        <test-method status="PASS" signature="projectType()[pri:5, instance:com.testcase.CreateProjectTest@56ac3a89]" name="projectType" duration-ms="1122" started-at="2018-05-02T17:39:49Z" finished-at="2018-05-02T17:39:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- projectType -->
-        <test-method status="PASS" signature="targetLanguage()[pri:7, instance:com.testcase.CreateProjectTest@56ac3a89]" name="targetLanguage" duration-ms="9102" started-at="2018-04-25T11:12:48Z" finished-at="2018-04-25T11:12:57Z">
+        <test-method status="PASS" signature="targetLanguage()[pri:7, instance:com.testcase.CreateProjectTest@56ac3a89]" name="targetLanguage" duration-ms="7243" started-at="2018-05-02T17:39:50Z" finished-at="2018-05-02T17:39:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- targetLanguage -->
-        <test-method status="PASS" signature="doClickOnLetsStartButton()[pri:8, instance:com.testcase.CreateProjectTest@56ac3a89]" name="doClickOnLetsStartButton" duration-ms="10759" started-at="2018-04-25T11:12:57Z" finished-at="2018-04-25T11:13:08Z">
+        <test-method status="FAIL" signature="doClickOnLetsStartButton()[pri:8, instance:com.testcase.CreateProjectTest@56ac3a89]" name="doClickOnLetsStartButton" duration-ms="15780" started-at="2018-05-02T17:39:57Z" finished-at="2018-05-02T17:40:13Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [http://staging.devnagri.com/projects] but found [http://staging.devnagri.co.in/projects]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [http://staging.devnagri.com/projects] but found [http://staging.devnagri.co.in/projects]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at org.testng.Assert.assertEquals(Assert.java:463)at com.testcase.CreateProjectTest.doClickOnLetsStartButton(CreateProjectTest.java:115)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doClickOnLetsStartButton -->
       </class> <!-- com.testcase.CreateProjectTest -->
     </test> <!-- Create Project Testcase -->
-    <test name="File Upload Testcase" duration-ms="23250" started-at="2018-04-25T05:43:08Z" finished-at="2018-04-25T05:43:31Z">
+    <test name="File Upload Testcase" duration-ms="20126" started-at="2018-05-02T12:10:13Z" finished-at="2018-05-02T12:10:33Z">
       <class name="com.testcase.FileUploadTest">
-        <test-method status="PASS" signature="clickOnAddNewFile()[pri:1, instance:com.testcase.FileUploadTest@13805618]" name="clickOnAddNewFile" duration-ms="2880" started-at="2018-04-25T11:13:08Z" finished-at="2018-04-25T11:13:11Z">
+        <test-method status="PASS" signature="clickOnAddNewFile()[pri:1, instance:com.testcase.FileUploadTest@13805618]" name="clickOnAddNewFile" duration-ms="1438" started-at="2018-05-02T17:40:13Z" finished-at="2018-05-02T17:40:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnAddNewFile -->
-        <test-method status="PASS" signature="enterFileLocation()[pri:4, instance:com.testcase.FileUploadTest@13805618]" name="enterFileLocation" duration-ms="9266" started-at="2018-04-25T11:13:11Z" finished-at="2018-04-25T11:13:20Z">
+        <test-method status="PASS" signature="enterFileLocation()[pri:4, instance:com.testcase.FileUploadTest@13805618]" name="enterFileLocation" duration-ms="10231" started-at="2018-05-02T17:40:14Z" finished-at="2018-05-02T17:40:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterFileLocation -->
-        <test-method status="PASS" signature="selectFileFormat()[pri:5, instance:com.testcase.FileUploadTest@13805618]" name="selectFileFormat" duration-ms="11094" started-at="2018-04-25T11:13:20Z" finished-at="2018-04-25T11:13:31Z">
+        <test-method status="PASS" signature="selectFileFormat()[pri:5, instance:com.testcase.FileUploadTest@13805618]" name="selectFileFormat" duration-ms="8452" started-at="2018-05-02T17:40:25Z" finished-at="2018-05-02T17:40:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectFileFormat -->
       </class> <!-- com.testcase.FileUploadTest -->
     </test> <!-- File Upload Testcase -->
-    <test name="Choose Translation Plan" duration-ms="20241" started-at="2018-04-25T05:43:31Z" finished-at="2018-04-25T05:43:52Z">
+    <test name="Choose Translation Plan" duration-ms="10251" started-at="2018-05-02T12:10:33Z" finished-at="2018-05-02T12:10:43Z">
       <class name="com.testcase.ChooseTranslationPlanTest">
-        <test-method status="PASS" signature="choosePlanForTranslation()[pri:1, instance:com.testcase.ChooseTranslationPlanTest@4b952a2d]" name="choosePlanForTranslation" duration-ms="14821" started-at="2018-04-25T11:13:31Z" finished-at="2018-04-25T11:13:46Z">
+        <test-method status="PASS" signature="choosePlanForTranslation()[pri:1, instance:com.testcase.ChooseTranslationPlanTest@4b952a2d]" name="choosePlanForTranslation" duration-ms="8409" started-at="2018-05-02T17:40:33Z" finished-at="2018-05-02T17:40:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- choosePlanForTranslation -->
-        <test-method status="PASS" signature="selectTheBestPlan()[pri:3, instance:com.testcase.ChooseTranslationPlanTest@4b952a2d]" name="selectTheBestPlan" duration-ms="5402" started-at="2018-04-25T11:13:46Z" finished-at="2018-04-25T11:13:52Z">
+        <test-method status="PASS" signature="selectTheBestPlan()[pri:3, instance:com.testcase.ChooseTranslationPlanTest@4b952a2d]" name="selectTheBestPlan" duration-ms="1837" started-at="2018-05-02T17:40:41Z" finished-at="2018-05-02T17:40:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectTheBestPlan -->
       </class> <!-- com.testcase.ChooseTranslationPlanTest -->
     </test> <!-- Choose Translation Plan -->
-    <test name="Make An Order Testcase" duration-ms="39028" started-at="2018-04-25T05:43:52Z" finished-at="2018-04-25T05:44:31Z">
+    <test name="Make An Order Testcase" duration-ms="34548" started-at="2018-05-02T12:10:43Z" finished-at="2018-05-02T12:11:18Z">
       <class name="com.testcase.MakeOrderTest">
-        <test-method status="PASS" signature="doTheOrder()[pri:1, instance:com.testcase.MakeOrderTest@5025a98f]" name="doTheOrder" duration-ms="31139" started-at="2018-04-25T11:13:52Z" finished-at="2018-04-25T11:14:23Z">
+        <test-method status="PASS" signature="doTheOrder()[pri:1, instance:com.testcase.MakeOrderTest@5025a98f]" name="doTheOrder" duration-ms="30140" started-at="2018-05-02T17:40:43Z" finished-at="2018-05-02T17:41:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doTheOrder -->
-        <test-method status="PASS" signature="clientLogout()[pri:2, instance:com.testcase.MakeOrderTest@5025a98f]" name="clientLogout" duration-ms="7880" started-at="2018-04-25T11:14:23Z" finished-at="2018-04-25T11:14:31Z">
+        <test-method status="PASS" signature="clientLogout()[pri:2, instance:com.testcase.MakeOrderTest@5025a98f]" name="clientLogout" duration-ms="4404" started-at="2018-05-02T17:41:13Z" finished-at="2018-05-02T17:41:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clientLogout -->
       </class> <!-- com.testcase.MakeOrderTest -->
     </test> <!-- Make An Order Testcase -->
-    <test name="Manager" duration-ms="56720" started-at="2018-04-25T05:44:31Z" finished-at="2018-04-25T05:45:27Z">
+    <test name="Manager" duration-ms="37026" started-at="2018-05-02T12:11:18Z" finished-at="2018-05-02T12:11:55Z">
       <class name="com.testcase.ManagerTest">
-        <test-method status="PASS" signature="doMangerLogin()[pri:1, instance:com.testcase.ManagerTest@a67c67e]" name="doMangerLogin" duration-ms="11594" started-at="2018-04-25T11:14:31Z" finished-at="2018-04-25T11:14:42Z">
+        <test-method status="PASS" signature="doMangerLogin()[pri:1, instance:com.testcase.ManagerTest@a67c67e]" name="doMangerLogin" duration-ms="3704" started-at="2018-05-02T17:41:18Z" finished-at="2018-05-02T17:41:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doMangerLogin -->
-        <test-method status="PASS" signature="selectTheCreatedProject()[pri:2, instance:com.testcase.ManagerTest@a67c67e]" name="selectTheCreatedProject" duration-ms="7064" started-at="2018-04-25T11:14:42Z" finished-at="2018-04-25T11:14:49Z">
+        <test-method status="PASS" signature="selectTheCreatedProject()[pri:2, instance:com.testcase.ManagerTest@a67c67e]" name="selectTheCreatedProject" duration-ms="2195" started-at="2018-05-02T17:41:21Z" finished-at="2018-05-02T17:41:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectTheCreatedProject -->
-        <test-method status="PASS" signature="selectOrder()[pri:3, instance:com.testcase.ManagerTest@a67c67e]" name="selectOrder" duration-ms="11264" started-at="2018-04-25T11:14:49Z" finished-at="2018-04-25T11:15:01Z">
+        <test-method status="PASS" signature="selectOrder()[pri:3, instance:com.testcase.ManagerTest@a67c67e]" name="selectOrder" duration-ms="2157" started-at="2018-05-02T17:41:24Z" finished-at="2018-05-02T17:41:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectOrder -->
-        <test-method status="PASS" signature="selectLanguageTranslator()[pri:4, instance:com.testcase.ManagerTest@a67c67e]" name="selectLanguageTranslator" duration-ms="5997" started-at="2018-04-25T11:15:01Z" finished-at="2018-04-25T11:15:07Z">
+        <test-method status="PASS" signature="performActions()[pri:4, instance:com.testcase.ManagerTest@a67c67e]" name="performActions" duration-ms="2230" started-at="2018-05-02T17:41:26Z" finished-at="2018-05-02T17:41:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performActions -->
+        <test-method status="PASS" signature="clickOnAssignLink()[pri:5, instance:com.testcase.ManagerTest@a67c67e]" name="clickOnAssignLink" duration-ms="3997" started-at="2018-05-02T17:41:28Z" finished-at="2018-05-02T17:41:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAssignLink -->
+        <test-method status="PASS" signature="selectLanguageTranslator()[pri:6, instance:com.testcase.ManagerTest@a67c67e]" name="selectLanguageTranslator" duration-ms="2068" started-at="2018-05-02T17:41:32Z" finished-at="2018-05-02T17:41:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLanguageTranslator -->
-        <test-method status="PASS" signature="assignProjectToTranslator()[pri:5, instance:com.testcase.ManagerTest@a67c67e]" name="assignProjectToTranslator" duration-ms="11475" started-at="2018-04-25T11:15:07Z" finished-at="2018-04-25T11:15:18Z">
+        <test-method status="PASS" signature="assignProjectToTranslator()[pri:7, instance:com.testcase.ManagerTest@a67c67e]" name="assignProjectToTranslator" duration-ms="13908" started-at="2018-05-02T17:41:34Z" finished-at="2018-05-02T17:41:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assignProjectToTranslator -->
-        <test-method status="PASS" signature="doManagerLogout()[pri:6, instance:com.testcase.ManagerTest@a67c67e]" name="doManagerLogout" duration-ms="9251" started-at="2018-04-25T11:15:18Z" finished-at="2018-04-25T11:15:27Z">
+        <test-method status="PASS" signature="doManagerLogout()[pri:8, instance:com.testcase.ManagerTest@a67c67e]" name="doManagerLogout" duration-ms="6757" started-at="2018-05-02T17:41:48Z" finished-at="2018-05-02T17:41:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doManagerLogout -->
       </class> <!-- com.testcase.ManagerTest -->
     </test> <!-- Manager -->
-    <test name="Translator" duration-ms="163403" started-at="2018-04-25T05:45:27Z" finished-at="2018-04-25T05:48:11Z">
+    <test name="Translator" duration-ms="63662" started-at="2018-05-02T12:11:55Z" finished-at="2018-05-02T12:12:58Z">
       <class name="com.testcase.TranslatorTest">
-        <test-method status="PASS" signature="translatorDoLogin()[pri:1, instance:com.testcase.TranslatorTest@5383967b]" name="translatorDoLogin" duration-ms="35941" started-at="2018-04-25T11:15:27Z" finished-at="2018-04-25T11:16:03Z">
+        <test-method status="PASS" signature="translatorDoLogin()[pri:1, instance:com.testcase.TranslatorTest@5383967b]" name="translatorDoLogin" duration-ms="4690" started-at="2018-05-02T17:41:55Z" finished-at="2018-05-02T17:41:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- translatorDoLogin -->
-        <test-method status="PASS" signature="doSelectTranslatorProject()[pri:2, instance:com.testcase.TranslatorTest@5383967b]" name="doSelectTranslatorProject" duration-ms="8808" started-at="2018-04-25T11:16:03Z" finished-at="2018-04-25T11:16:12Z">
+        <test-method status="PASS" signature="doSelectTranslatorProject()[pri:2, instance:com.testcase.TranslatorTest@5383967b]" name="doSelectTranslatorProject" duration-ms="1297" started-at="2018-05-02T17:41:59Z" finished-at="2018-05-02T17:42:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doSelectTranslatorProject -->
-        <test-method status="PASS" signature="automatedTranslation()[pri:3, instance:com.testcase.TranslatorTest@5383967b]" name="automatedTranslation" duration-ms="4072" started-at="2018-04-25T11:16:12Z" finished-at="2018-04-25T11:16:16Z">
+        <test-method status="PASS" signature="automatedTranslation()[pri:3, instance:com.testcase.TranslatorTest@5383967b]" name="automatedTranslation" duration-ms="3178" started-at="2018-05-02T17:42:01Z" finished-at="2018-05-02T17:42:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automatedTranslation -->
-        <test-method status="PASS" signature="doselectWordsAndEnterText()[pri:4, instance:com.testcase.TranslatorTest@5383967b]" name="doselectWordsAndEnterText" duration-ms="58516" started-at="2018-04-25T11:16:16Z" finished-at="2018-04-25T11:17:15Z">
+        <test-method status="PASS" signature="doselectWordsAndEnterText()[pri:4, instance:com.testcase.TranslatorTest@5383967b]" name="doselectWordsAndEnterText" duration-ms="36959" started-at="2018-05-02T17:42:04Z" finished-at="2018-05-02T17:42:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doselectWordsAndEnterText -->
-        <test-method status="PASS" signature="docompleteTranslation()[pri:5, instance:com.testcase.TranslatorTest@5383967b]" name="docompleteTranslation" duration-ms="6347" started-at="2018-04-25T11:17:15Z" depends-on-methods="com.testcase.TranslatorTest.doselectWordsAndEnterText" finished-at="2018-04-25T11:17:21Z">
+        <test-method status="PASS" signature="docompleteTranslation()[pri:5, instance:com.testcase.TranslatorTest@5383967b]" name="docompleteTranslation" duration-ms="3022" started-at="2018-05-02T17:42:41Z" depends-on-methods="com.testcase.TranslatorTest.doselectWordsAndEnterText" finished-at="2018-05-02T17:42:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- docompleteTranslation -->
-        <test-method status="PASS" signature="doClickOnLogo()[pri:6, instance:com.testcase.TranslatorTest@5383967b]" name="doClickOnLogo" duration-ms="39821" started-at="2018-04-25T11:17:21Z" depends-on-methods="com.testcase.TranslatorTest.docompleteTranslation" finished-at="2018-04-25T11:18:01Z">
+        <test-method status="FAIL" signature="doClickOnLogo()[pri:6, instance:com.testcase.TranslatorTest@5383967b]" name="doClickOnLogo" duration-ms="10075" started-at="2018-05-02T17:42:44Z" depends-on-methods="com.testcase.TranslatorTest.docompleteTranslation" finished-at="2018-05-02T17:42:54Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='http://staging.devnagri.com']"}  (Session info: chrome=63.0.3239.132)  (Driver info: chromedriver=2.34.522913 (36222509aa6e819815938cbf2709b4849735537c),platform=Linux 4.4.0-121-generic x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'System info: host: 'fourtek-desktop', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-121-generic', java.version: '1.8.0_161'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522913 (36222509aa6e81..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}Session ID: 04364338733263d178b8cb8a8565910c*** Element info: {Using=xpath, value=//a[@href='http://staging.devnagri.com']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='http://staging.devnagri.com']"}  (Session info: chrome=63.0.3239.132)  (Driver info: chromedriver=2.34.522913 (36222509aa6e819815938cbf2709b4849735537c),platform=Linux 4.4.0-121-generic x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'System info: host: 'fourtek-desktop', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-121-generic', java.version: '1.8.0_161'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522913 (36222509aa6e81..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}Session ID: 04364338733263d178b8cb8a8565910c*** Element info: {Using=xpath, value=//a[@href='http://staging.devnagri.com']}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.lang.reflect.Constructor.newInstance(Constructor.java:423)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)at org.openqa.selenium.By$ByXPath.findElement(By.java:361)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:108)at com.sun.proxy.$Proxy6.findElement(Unknown Source)at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:192)at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)at com.sun.proxy.$Proxy10.click(Unknown Source)at com.pages.product.Translator.clickDeva(Translator.java:163)at com.testcase.TranslatorTest.doClickOnLogo(TranslatorTest.java:75)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doClickOnLogo -->
-        <test-method status="PASS" signature="doTranslatorLogout()[pri:7, instance:com.testcase.TranslatorTest@5383967b]" name="doTranslatorLogout" duration-ms="9841" started-at="2018-04-25T11:18:01Z" finished-at="2018-04-25T11:18:11Z">
+        <test-method status="PASS" signature="doTranslatorLogout()[pri:7, instance:com.testcase.TranslatorTest@5383967b]" name="doTranslatorLogout" duration-ms="4427" started-at="2018-05-02T17:42:54Z" finished-at="2018-05-02T17:42:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doTranslatorLogout -->
       </class> <!-- com.testcase.TranslatorTest -->
     </test> <!-- Translator -->
-    <test name="Reviewer" duration-ms="134195" started-at="2018-04-25T05:48:11Z" finished-at="2018-04-25T05:50:25Z">
+    <test name="Reviewer" duration-ms="52177" started-at="2018-05-02T12:12:58Z" finished-at="2018-05-02T12:13:51Z">
       <class name="com.testcase.ManagerTest">
-        <test-method status="PASS" signature="managerTranslationPage()[pri:0, instance:com.testcase.ManagerTest@a67c67e]" name="managerTranslationPage" is-config="true" duration-ms="41607" started-at="2018-04-25T11:20:25Z" finished-at="2018-04-25T11:21:07Z">
+        <test-method status="PASS" signature="managerTranslationPage()[pri:0, instance:com.testcase.ManagerTest@a67c67e]" name="managerTranslationPage" is-config="true" duration-ms="22658" started-at="2018-05-02T17:43:51Z" finished-at="2018-05-02T17:44:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- managerTranslationPage -->
-        <test-method status="PASS" signature="ClientTranslationPage()[pri:0, instance:com.testcase.ManagerTest@a67c67e]" name="ClientTranslationPage" is-config="true" duration-ms="39424" started-at="2018-04-25T11:21:07Z" depends-on-methods="com.testcase.ManagerTest.managerTranslationPage" finished-at="2018-04-25T11:21:46Z">
+        <test-method status="PASS" signature="ClientTranslationPage()[pri:0, instance:com.testcase.ManagerTest@a67c67e]" name="ClientTranslationPage" is-config="true" duration-ms="20898" started-at="2018-05-02T17:44:13Z" depends-on-methods="com.testcase.ManagerTest.managerTranslationPage" finished-at="2018-05-02T17:44:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClientTranslationPage -->
       </class> <!-- com.testcase.ManagerTest -->
       <class name="com.testcase.ReviewerTest">
-        <test-method status="PASS" signature="reviewerDoLogin()[pri:1, instance:com.testcase.ReviewerTest@6d7b4f4c]" name="reviewerDoLogin" duration-ms="33147" started-at="2018-04-25T11:18:11Z" finished-at="2018-04-25T11:18:44Z">
+        <test-method status="PASS" signature="reviewerDoLogin()[pri:1, instance:com.testcase.ReviewerTest@6d7b4f4c]" name="reviewerDoLogin" duration-ms="3899" started-at="2018-05-02T17:42:58Z" finished-at="2018-05-02T17:43:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reviewerDoLogin -->
-        <test-method status="PASS" signature="doSelectReviewerProject()[pri:2, instance:com.testcase.ReviewerTest@6d7b4f4c]" name="doSelectReviewerProject" duration-ms="11392" started-at="2018-04-25T11:18:44Z" finished-at="2018-04-25T11:18:55Z">
+        <test-method status="PASS" signature="doSelectReviewerProject()[pri:2, instance:com.testcase.ReviewerTest@6d7b4f4c]" name="doSelectReviewerProject" duration-ms="3546" started-at="2018-05-02T17:43:02Z" finished-at="2018-05-02T17:43:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doSelectReviewerProject -->
-        <test-method status="PASS" signature="automatedTranslation()[pri:3, instance:com.testcase.ReviewerTest@6d7b4f4c]" name="automatedTranslation" duration-ms="4535" started-at="2018-04-25T11:18:55Z" finished-at="2018-04-25T11:19:00Z">
+        <test-method status="PASS" signature="automatedTranslation()[pri:3, instance:com.testcase.ReviewerTest@6d7b4f4c]" name="automatedTranslation" duration-ms="3179" started-at="2018-05-02T17:43:06Z" finished-at="2018-05-02T17:43:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automatedTranslation -->
-        <test-method status="PASS" signature="doAcceptWord()[pri:4, instance:com.testcase.ReviewerTest@6d7b4f4c]" name="doAcceptWord" duration-ms="36924" started-at="2018-04-25T11:19:00Z" finished-at="2018-04-25T11:19:37Z">
+        <test-method status="PASS" signature="doAcceptWord()[pri:4, instance:com.testcase.ReviewerTest@6d7b4f4c]" name="doAcceptWord" duration-ms="25906" started-at="2018-05-02T17:43:09Z" finished-at="2018-05-02T17:43:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAcceptWord -->
-        <test-method status="PASS" signature="doClickOnComplete()[pri:5, instance:com.testcase.ReviewerTest@6d7b4f4c]" name="doClickOnComplete" duration-ms="3730" started-at="2018-04-25T11:19:37Z" depends-on-methods="com.testcase.ReviewerTest.doAcceptWord" finished-at="2018-04-25T11:19:41Z">
+        <test-method status="PASS" signature="doClickOnComplete()[pri:5, instance:com.testcase.ReviewerTest@6d7b4f4c]" name="doClickOnComplete" duration-ms="1192" started-at="2018-05-02T17:43:35Z" depends-on-methods="com.testcase.ReviewerTest.doAcceptWord" finished-at="2018-05-02T17:43:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doClickOnComplete -->
-        <test-method status="PASS" signature="doClickOnLogo()[pri:6, instance:com.testcase.ReviewerTest@6d7b4f4c]" name="doClickOnLogo" duration-ms="35111" started-at="2018-04-25T11:19:41Z" depends-on-methods="com.testcase.ReviewerTest.doClickOnComplete" finished-at="2018-04-25T11:20:16Z">
+        <test-method status="FAIL" signature="doClickOnLogo()[pri:6, instance:com.testcase.ReviewerTest@6d7b4f4c]" name="doClickOnLogo" duration-ms="10074" started-at="2018-05-02T17:43:36Z" depends-on-methods="com.testcase.ReviewerTest.doClickOnComplete" finished-at="2018-05-02T17:43:46Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='http://staging.devnagri.com']"}  (Session info: chrome=63.0.3239.132)  (Driver info: chromedriver=2.34.522913 (36222509aa6e819815938cbf2709b4849735537c),platform=Linux 4.4.0-121-generic x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'System info: host: 'fourtek-desktop', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-121-generic', java.version: '1.8.0_161'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522913 (36222509aa6e81..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}Session ID: 04364338733263d178b8cb8a8565910c*** Element info: {Using=xpath, value=//a[@href='http://staging.devnagri.com']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='http://staging.devnagri.com']"}  (Session info: chrome=63.0.3239.132)  (Driver info: chromedriver=2.34.522913 (36222509aa6e819815938cbf2709b4849735537c),platform=Linux 4.4.0-121-generic x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'System info: host: 'fourtek-desktop', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-121-generic', java.version: '1.8.0_161'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.34.522913 (36222509aa6e81..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}Session ID: 04364338733263d178b8cb8a8565910c*** Element info: {Using=xpath, value=//a[@href='http://staging.devnagri.com']}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.lang.reflect.Constructor.newInstance(Constructor.java:423)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)at org.openqa.selenium.By$ByXPath.findElement(By.java:361)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:108)at com.sun.proxy.$Proxy6.findElement(Unknown Source)at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:192)at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)at com.sun.proxy.$Proxy10.click(Unknown Source)at com.pages.product.Reviewer.clickDeva(Reviewer.java:136)at com.testcase.ReviewerTest.doClickOnLogo(ReviewerTest.java:76)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doClickOnLogo -->
-        <test-method status="PASS" signature="doTranslatorLogout()[pri:7, instance:com.testcase.ReviewerTest@6d7b4f4c]" name="doTranslatorLogout" duration-ms="9302" started-at="2018-04-25T11:20:16Z" finished-at="2018-04-25T11:20:25Z">
+        <test-method status="PASS" signature="doTranslatorLogout()[pri:7, instance:com.testcase.ReviewerTest@6d7b4f4c]" name="doTranslatorLogout" duration-ms="4369" started-at="2018-05-02T17:43:46Z" finished-at="2018-05-02T17:43:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doTranslatorLogout -->
